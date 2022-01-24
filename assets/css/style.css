@@ -87,7 +87,7 @@ body {
     color: #191919;
     font-family: "museo", serif;
     font-weight: 700;
-    font-size: .9375rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
@@ -132,6 +132,7 @@ h6, .ts-h6 {
 
 .nav-link {
     font-weight: 900;
+    font-size: 1rem;
 }
 
 /* NEW */
@@ -932,8 +933,8 @@ C. Components
 -------------------------------------------*/
 
 .ts-block {
-    padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
     position: relative;
     /*
   &:after {
@@ -1568,7 +1569,7 @@ body.has-loading-screen.loading-done:after {
 -------------------------------------------*/
 
 .navbar {
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: 500;
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -1589,8 +1590,9 @@ body.has-loading-screen.loading-done:after {
 }
 
 [class*="navbar-expand"] .navbar-nav .nav-link {
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+    padding-top: .2125rem;
+    padding-bottom: .2125rem;
+    margin-left: 1rem;
 }
 
 /*XL*/
@@ -2197,7 +2199,7 @@ E. Template Specific Elements
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {
-        font-size: 85%;
+        font-size: 100%;
     }
 
     h1, .ts-h1 {
