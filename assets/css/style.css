@@ -109,7 +109,7 @@ h2, .ts-h2 {
 h3, .ts-h3 {
     font-weight: 700;
     font-size: 1.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 1rem
 }
 
 h4, .ts-h4 {
@@ -1215,7 +1215,7 @@ blockquote h6 {
     backface-visibility: hidden;
     border: none;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.175rem;
     overflow: hidden;
 }
 
