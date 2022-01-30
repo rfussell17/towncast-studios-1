@@ -2161,6 +2161,28 @@ E. Template Specific Elements
 
 /* Footer push up */
 
+
+
+.circle {
+    background-color: #f3f3f3;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.ts-item-body p {
+    color: #333;
+}
+
+.blue-span {
+    color: #1976BD;
+}
+
+.blue-text {
+    color: #1976BD;
+}
+
 #ts-footer .ts-box {
     margin-top: -3.125rem;
 }
