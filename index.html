@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="ThemeStarz">
 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
@@ -13,10 +19,19 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/haj1xnp.css">
-    <link rel="icon" type="image/png" href="/assets/img/logo-tc1.ico" />
+    <link rel="icon" type="image/png" href="/assets/img/logo-tc1.ico">
+
+
     <title>Towncast Studios</title>
 
 </head>
+
+<!--colors
+
+#08836a - green
+
+
+-->
 
 <body data-spy="scroll" data-target=".navbar">
     <div class="ts-page-wrapper" id="page-top">
@@ -26,10 +41,10 @@
         <!--*********************************************************************************************************-->
         <header id="ts-hero" class="ts-full-screen ts-separate-bg-element">
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top " data-bg-color="#fff">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top pb-5 mb-5" data-bg-color="#fff">
                 <div class="container">
-                    <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/towncast3.png" class="" alt="">
+                    <a class="navbar-brand pb-5 mb-5" href="#page-top">
+                        <img src="assets/img/towncast3.png" alt="">
                     </a>
                     <!--end navbar-brand-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,12 +55,11 @@
                         <div class="navbar-nav ml-auto">
                             <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span
                                     class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link ts-scroll" href="#how-it-works">How It Works</a>
                             <a class="nav-item nav-link ts-scroll" href="#about-us">About Us</a>
-                            <a class="nav-item nav-link ts-scroll" href="#successful-stories">Services</a>
-                            <a class="nav-item nav-link ts-scroll" href="#pricing">Pricing</a>
+                            <a class="nav-item nav-link ts-scroll" href="#how-it-works">How It Works</a>
+                            <a class="nav-item nav-link ts-scroll" href="#services">Services</a>
                             <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
-                            <a class="ts-scroll btn btn-primary btn-sm m-1 px-3 ts-width__auto" href="#form-contact">Book Time Today</a>
+                            <a class="ts-scroll btn btn-primary btn-sm m-1 px-3 ts-width__auto" href="#book">Book Time Today</a>
                         </div>
                         <!--end navbar-nav-->
                     </div>
@@ -63,11 +77,11 @@
                         <div data-animate="ts-fadeInUp" data-delay=".1s">
                             <p class="w-75 text-white mb-5 ts-opacity__70">Your feel-good local podcast recording studio in Mount Laurel, NJ.</p>
                         </div>
-                        <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll mr-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                        <a href="#book" class="btn btn-primary btn-lg ts-scroll mr-4" data-animate="ts-fadeInUp" data-delay=".2s">
                             Make A Booking
                             <i class="fa fa-arrow-right small ml-3 ts-opacity__50"></i>
                         </a>
-                        <a href="#about-us" class="btn-link text-white ts-scroll d-inline-block" data-animate="ts-fadeInUp" data-delay=".3s">
+                        <a href="#about-us-drill" class="btn-link text-white ts-scroll d-inline-block" data-animate="ts-fadeInUp" data-delay=".3s">
                             <strong>Learn More </strong>
                         </a>
                     </div>
@@ -93,7 +107,35 @@
         <!--*********************************************************************************************************-->
         <main id="ts-content">
 
-            <section id="about-us" class="ts" data-bg-color="#fff">
+
+            <section id="partners" class="ts-block py-4">
+                <!--container-->
+                <div class="container">
+                    <!--block of logos-->
+                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
+                        <a href="#">
+                            <img src="assets/img/logo-01.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-02.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-03.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-04.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-05.png" alt="">
+                        </a>
+                    </div>
+                    <!--end logos-->
+                </div>
+                <!--end container-->
+            </section>
+
+
+            <section id="about-us">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
@@ -109,8 +151,10 @@
                                 <p>
                                     With Towncast Studios, this could become a reality (and much sooner than you think). Book a 60-minute studio session and see where your podcast series takes you!
                                 </p>
-                                <a href="#" class="btn btn-primary mr-3 my-2">Make A Booking</a>
-                                <a href="#about-us" class="btn btn-outline-dark ts-scroll btn-border-muted my-2">Learn More</a>
+
+                                <a href="#book" class="btn btn-primary mr-3 my-2">Make A Booking</a>
+                                <a href="#about-us" class="btn btn-outline-dark ts-scroll btn-border-muted my-2">Learn
+                                    More</a>
                             </div>
                         </div>
                         <!--end col-md-6-->
@@ -131,242 +175,237 @@
             </section>
 
 
-            <!--ABOUT US ********************************************************************************************-->
-            <!-- <section id="about-us" class="ts" data-bg-color="#fff">
+
+            <section id="partners" class="ts-block py-4">
+                <!--container-->
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="ts-block pr-3">
-                                <div class="ts-title">
-                                    <h2>Bringing podcast series to the community</h2>
+                    <!--block of logos-->
+                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
+                        <a href="#">
+                            <img src="assets/img/logo-01.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-02.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-03.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-04.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/logo-05.png" alt="">
+                        </a>
+                    </div>
+                    <!--end logos-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END ABOUT US ****************************************************************************************-->
+
+            <!--HOW IT WORKS ****************************************************************************************-->
+            <section id="how-it-works" class="ts-block ml-3 mr-3" data-bg-color="#fafafa">
+                <div class="container" style="--fa-primary-color:#1976BD;">
+                    <div class="ts-title">
+                        <h2>Podcast studio equipment for everyone</h2>
+
+
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row ml-1 mr-3">
+
+
+                        <div class="mb-5">
+                            <p>Towncast Studios offers various recording services, each approved by our owner, <strong>Mathew Passy</strong> - Better known as
+                                <a href="https://www.thepodcastconsultant.com/" class="blue-span"> The Podcast Consultant.</a>
+
+                            </p>
+                            <p>We believe the future of podcasting, having been involved in the space for over <span class="blue-span">__</span> years now.
+                            </p>
+                            <p>Our podcast studio setup includes all the equipment and guidance needed to launch and grow your show (without any hassle or strings attached).</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-sm-around mb-4">
+
+                        <div class="col-xs-12 col-lg-5 card pt-4">
+                            <div class="ts-item" data-animate="ts-fadeInUp" data>
+                                <div class="ts-item-content">
+                                    <div class="ts-item-header text-center">
+                                        <figure class="icon">
+
+                                            <div class="ts-circle__md text-center" data-bg-color="#fff">
+
+                                                <i class="fad fa-microphone-alt fa-5x pt-3" style="color: black"></i>
+                                            </div>
+
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center">
+                                        <h4>Podcast Recording</h4>
+                                        <p style="opacity: 0.7;">For podcast series of every genre.</p>
+                                    </div>
+                                    <!--end ts-item-body-->
                                 </div>
-                                <!-s-end ts-title-->
-            <!-- <p>
-                                    Imagine listening about your favorite restaurant's new menu or the re-design of the kids' playground near your home.
-                                </p>
-
-                                <p>
-                                    With Towncast Studios, this could become a reality (and much sooner than you think). Book a 60-minute studio session and see where your podcast series takes you!
-                                </p>
-                                <a href="#" class="btn btn-primary mr-3 my-2">Make A Booking</a>
-                                <a href="#about-us" class="btn btn-outline-dark ts-scroll btn-border-muted my-2">Learn
-                                    More</a>
+                                <!--end ts-item-content-->
                             </div>
+                            <!--end ts-item-->
                         </div>
-            <!--end col-md-6-->
-    </div>
-    <!--end row-->
-    </div>
-    <!--end container-->
 
-    <div class="ts-background d-sm-block" data-bg-color="#fafafa" data-bg-parallax1="scroll" data-bg-parallax-speed="3">
-        <div class="owl-carousel w-50 ts-push-left__100 h-100 ts-parallax-element1" data-owl-loop="1" data-owl-nav-container="#carousel-external-control">
-            <div class="ts-background-image" data-bg-image="assets/img/bg-finance-team.jpg"></div>
-            <div class="ts-background-image" data-bg-image="assets/img/bg-hand-mobile.jpg"></div>
-        </div>
-        <!--end owl-carousel-->
-    </div>
-    <!--end ts-background-->
-
-    </section>
-    <!--END ABOUT US ****************************************************************************************-->
-
-    <!--HOW IT WORKS ****************************************************************************************-->
-    <section id="how-it-works" class="ts-block pb-5 ml-3 mr-3" data-bg-color="#fafafa">
-        <div class="container" style="--fa-primary-color:#1976BD;">
-            <div class="ts-title">
-                <h2>Podcast studio equipment for everyone</h2>
-            </div>
-            <!--end ts-title-->
-            <div class="row ml-1 mr-3">
+                        <!--end col-xl-4-->
+                        <div class="col-xs-12 col-lg-5 card pt-4 ">
+                            <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.1s ">
+                                <div class="ts-item-content ">
+                                    <div class="ts-item-header text-center ">
+                                        <figure class="icon ">
 
 
-                <div class="mb-5">
-                    <p>Towncast Studios offers various recording services, each approved by our owner, <strong>Mathew Passy</strong> - Better known as
-                        <a href="https://www.thepodcastconsultant.com/" class="blue-span"> The Podcast Consultant.</a>
+                                            <i class="fad fa-video fa-5x pt-3 " style="color: black "></i>
 
-                    </p>
-                    <p>We believe the future of podcasting, having been involved in the space for over <span class="blue-span">__</span> years now.
-                    </p>
-                    <p>Our podcast studio setup includes all the equipment and guidance needed to launch and grow your show (without any hassle or strings attached).</p>
-                </div>
-            </div>
-
-            <div class="row justify-content-sm-around mb-4">
-
-                <div class="col-xs-12 col-lg-5 card pt-5">
-                    <div class="ts-item" data-animate="ts-fadeInUp" data>
-                        <div class="ts-item-content">
-                            <div class="ts-item-header text-center">
-                                <figure class="icon">
-
-                                    <div class="ts-circle__md text-center" data-bg-color="#fff">
-
-                                        <i class="fad fa-microphone-alt fa-5x pt-3" style="color:#719dbf"></i>
+                                        </figure>
+                                        <!--end icon-->
                                     </div>
-
-                                </figure>
-                                <!--end icon-->
-                            </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center">
-                                <h4>Podcast Recording</h4>
-                                <p class="blue-text">For podcast series of every genre.</p>
-                            </div>
-                            <!--end ts-item-body-->
-                        </div>
-                        <!--end ts-item-content-->
-                    </div>
-                    <!--end ts-item-->
-                </div>
-
-                <!--end col-xl-4-->
-                <div class="col-xs-12 col-lg-5 card pt-5">
-                    <div class="ts-item" data-animate="ts-fadeInUp" data-delay="0.1s">
-                        <div class="ts-item-content">
-                            <div class="ts-item-header text-center">
-                                <figure class="icon">
-
-                                    <div class="ts-circle__md text-center" data-bg-color="#fff">
-                                        <i class="fad fa-video fa-5x pt-3" style="color:#719dbf"></i>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center ">
+                                        <h4>Video Recording</h4>
+                                        <p style="opacity: 0.7;">Give your audience more choice.</p>
                                     </div>
-                                </figure>
-                                <!--end icon-->
+                                    <!--end ts-item-body-->
+                                </div>
+                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center">
-                                <h4>Video Recording</h4>
-                                <p style="color: #1976BD;">Give your audience more choice.</p>
-                            </div>
-                            <!--end ts-item-body-->
+                            <!--end ts-item-->
                         </div>
-                        <!--end ts-item-content-->
+                        <!--end col-xl-4-->
                     </div>
-                    <!--end ts-item-->
-                </div>
-                <!--end col-xl-4-->
-            </div>
 
-            <div class="row justify-content-sm-around mb-4">
-                <div class="col-xs-12 col-lg-5 card pt-5">
-                    <div class="ts-item" data-animate="ts-fadeInUp" data-delay="0.2s">
-                        <div class="ts-item-content">
-                            <div class="ts-item-header text-center">
-                                <figure class="icon">
+                    <div class="row justify-content-sm-around mb-4 ">
+                        <div class="col-xs-12 col-lg-5 card pt-4 ">
+                            <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.2s ">
+                                <div class="ts-item-content ">
+                                    <div class="ts-item-header text-center ">
+                                        <figure class="icon ">
 
-                                    <div class="ts-circle__md text-center" data-bg-color="#fff">
-                                        <i class="fad fa-webcam fa-5x pt-3" style="color:#719dbf"></i>
+
+                                            <i class="fad fa-webcam fa-5x pt-3 " style="color: black "></i>
+
+                                        </figure>
+                                        <!--end icon-->
                                     </div>
-                                </figure>
-                                <!--end icon-->
-                            </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center">
-                                <h4>Webinar Services</h4>
-                                <p class="blue-text">No distractions nor disturbances.</p>
-                            </div>
-                            <!--end ts-item-body-->
-                        </div>
-                        <!--end ts-item-content-->
-                    </div>
-                    <!--end ts-item-->
-                </div>
-                <!--end col-xl-4-->
-
-                <!-- end row-->
-
-
-                <!--end col-xl-4-->
-                <div class="col-xs-12 col-lg-5 card pt-5">
-                    <div class="ts-item" data-animate="ts-fadeInUp" data-delay="0.2s">
-                        <div class="ts-item-content">
-                            <div class="ts-item-header text-center">
-                                <figure class="icon">
-
-                                    <div class="ts-circle__md text-center" data-bg-color="#fff">
-                                        <i class="fad fa-user-chart fa-5x pt-3" style="color:#719dbf"></i>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center ">
+                                        <h4>Webinar Services</h4>
+                                        <p style="opacity: 0.7;">No distractions nor disturbances.</p>
                                     </div>
-                                </figure>
-                                <!--end icon-->
+                                    <!--end ts-item-body-->
+                                </div>
+                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center">
-                                <h4>Presentation Services</h4>
-                                <p class="blue-text">A quiet, private place to present.</p>
-                            </div>
-                            <!--end ts-item-body-->
+                            <!--end ts-item-->
                         </div>
-                        <!--end ts-item-content-->
-                    </div>
-                    <!--end ts-item-->
-                </div>
-                <!--end col-xl-4-->
-            </div>
+                        <!--end col-xl-4-->
+
+                        <!-- end row-->
 
 
-            <div class="row justify-content-sm-around">
-                <div class="col-xs-12 col-lg-5 card pt-5">
-                    <div class="ts-item" data-animate="ts-fadeInUp" data-delay="0.2s">
-                        <div class="ts-item-content">
-                            <div class="ts-item-header text-center">
-                                <figure class="icon">
-                                    <div class="ts-circle__md text-center" data-bg-color="#fff">
-                                        <i class="fad fa-book-reader fa-5x pt-3" style="color:#719dbf"></i>
+                        <!--end col-xl-4-->
+                        <div class="col-xs-12 col-lg-5 card pt-4 ">
+                            <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.2s ">
+                                <div class="ts-item-content ">
+                                    <div class="ts-item-header text-center ">
+                                        <figure class="icon ">
+
+
+                                            <i class="fad fa-user-chart fa-5x pt-3 " style="color: black "></i>
+
+                                        </figure>
+                                        <!--end icon-->
                                     </div>
-                                </figure>
-                                <!--end icon-->
-                            </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center ">
-                                <h4>Audiobook Recording</h4>
-                                <p class="blue-text">Everyone loves a good story.</p>
-                            </div>
-                            <!--end ts-item-body-->
-                        </div>
-                        <!--end ts-item-content-->
-                    </div>
-                    <!--end ts-item-->
-                </div>
-
-
-                <div class="col-xs-12 col-lg-5 card pt-5 ">
-                    <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.2s ">
-                        <div class="ts-item-content ">
-                            <div class="ts-item-header text-center ">
-                                <figure class="icon ">
-                                    <div class="ts-circle__md text-center " data-bg-color="#fff ">
-                                        <i class="fad fa-microphone-stand fa-5x pt-3" style="color:#719dbf"></i>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center ">
+                                        <h4>Presentation Services</h4>
+                                        <p style="opacity: 0.7;">A quiet, private place to present.</p>
                                     </div>
-                                </figure>
-                                <!--end icon-->
+                                    <!--end ts-item-body-->
+                                </div>
+                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-header-->
-                            <div class="ts-item-body text-center ">
-                                <h4>Narration Services</h4>
-                                <p class="blue-text">Add impact to your storytelling.</p>
-                            </div>
-                            <!--end ts-item-body-->
+                            <!--end ts-item-->
                         </div>
-                        <!--end ts-item-content-->
+                        <!--end col-xl-4-->
                     </div>
-                    <!--end ts-item-->
-                </div>
 
 
-                <!--end row-->
+                    <div class="row justify-content-sm-around ">
+                        <div class="col-xs-12 col-lg-5 card pt-4 ">
+                            <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.2s ">
+                                <div class="ts-item-content ">
+                                    <div class="ts-item-header text-center ">
+                                        <figure class="icon ">
 
-            </div>
-            <!--end container-->
-    </section>
+                                            <i class="fad fa-book-reader fa-5x pt-3 " style="color: black "></i>
+
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center ">
+                                        <h4>Audiobook Recording</h4>
+                                        <p style="opacity: 0.7; ">Everyone loves a good story.</p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+
+
+                        <div class="col-xs-12 col-lg-5 card pt-4 ">
+                            <div class="ts-item " data-animate="ts-fadeInUp " data-delay="0.2s ">
+                                <div class="ts-item-content ">
+                                    <div class="ts-item-header text-center ">
+                                        <figure class="icon ">
+
+                                            <i class="fad fa-microphone-stand fa-5x pt-3 pb-0 " style="color: black "></i>
+
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body text-center ">
+                                        <h4>Narration Services</h4>
+                                        <p style="opacity: 0.7;">Add impact to your storytelling.</p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+
+
+                        <!--end row-->
+
+                    </div>
+                    <!--end container-->
+                    <div class="ts-item text-center ">
+                        <a href="# " class="btn btn-outline-dark mr-3 mt-5 ">View Services</a>
+                        <a href="#about-us " class="btn btn-primary ts-scroll btn-border-muted mt-5 ">Make A Booking</a>
+                    </div>
+
+            </section>
 
 
 
 
-    <!--END HOW IT WORKS ***********************************************************************************
+            <!--END HOW IT WORKS ***********************************************************************************
             <hr> -->
 
-    <!--PARTNERS ********************************************************************************************-->
-    <!-- <section id="partners " class="ts-block py-4 ">
+            <!--PARTNERS ********************************************************************************************-->
+            <!-- <section id="partners " class="ts-block py-4 ">
      
                 <div class="container ">
            
@@ -391,176 +430,211 @@
                 </div>
       
             </section> -->
-    <!--END PARTNERS ****************************************************************************************-->
+            <!--END PARTNERS ****************************************************************************************-->
 
 
-    <!--NUMBERS *********************************************************************************************-->
-    <!-- <section id="numbers " class="ts-block ts-background-is-dark ts-separate-bg-element py-5 ts-xs-text-center " data-bg-image=" " data-bg-image-opacity=".1 " data-bg-color="#0e1e3d " data-bg-parallax="scroll " data-bg-parallax-speed="3 ">
+            <!--NUMBERS *********************************************************************************************-->
+            <!-- <section id="numbers " class="ts-block ts-background-is-dark ts-separate-bg-element py-5 ts-xs-text-center " data-bg-image=" " data-bg-image-opacity=".1 " data-bg-color="#0e1e3d " data-bg-parallax="scroll " data-bg-parallax-speed="3 ">
                 <div class="container ">
 
                     <!--end ts-promo-numbers-->
-    </div>
-    <!--end container-->
-    </section>
-    <!--END NUMBERS *****************************************************************************************-->
-
-    <!--SUCCESSFUL STORIES **********************************************************************************-->
-    <section id="successful-stories " class="ts-block pb-5 mb-4 ">
-        <div class="container ">
-            <div class="ts-title text-center ">
-                <h2>Services</h2>
             </div>
-            <!--end ts-title-->
-            <div class="row ">
-                <div class="col-md-4 ">
-                    <div class="ts-story ts-separate-bg-element " data-animate="ts-fadeInUp " data-bg-color="rgba(0,0,0,.05) " data-bg-image="assets/img/img-bw-man-phone.jpg " data-bg-image-opacity=".1 ">
-                        <figure>10.05.2018</figure>
-                        <h3>Peters & Partners 50% Growth</h3>
-                        <p>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor </p>
-                        <a href="# " class="btn btn-primary btn-sm ">More</a>
+            <!--end container-->
+            </section>
+            <!--END NUMBERS *****************************************************************************************-->
+
+            <!--SUCCESSFUL STORIES **********************************************************************************-->
+            <section id="services" class="ts-block pb-5 mb-4 ">
+                <div class="container ">
+                    <div class="ts-title text-left ">
+                        <h2 class="mb-4 ">From microphones to cameras</h2>
+                        <p>No matter the age or popularity of your podcast series, it has scope to grow and become even better. </p>
+                        <p>But how do we make this happen? The answer is simple: by using <span class="blue-span">industry-leading</span> podcast studio equipment.
+                        </p>
                     </div>
-                    <!--end ts-story-->
-                </div>
-                <!--end col-md-4-->
-                <div class="col-md-4 ">
-                    <div class="ts-story ts-separate-bg-element " data-animate="ts-fadeInUp " data-delay="0.1s " data-bg-color="rgba(0,0,0,.05) " data-bg-image="assets/img/img-bw-food.jpg " data-bg-image-opacity=".1 ">
-                        <figure>23.04.2018</figure>
-                        <h3>Fishnet Restaurant Redesign</h3>
-                        <p>Donec et magna velit. Aenean volutpat consequat feugiat. Mauris</p>
-                        <a href="# " class="btn btn-primary btn-sm ">More</a>
+                    <!--end ts-title-->
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <div class="ts-story ts-separate-bg-element justify-content-center " data-animate="ts-fadeInUp " data-bg-color="rgba(0,0,0, 0.1) " data-bg-image="assets/img/pod-vid.jpeg " data-bg-image-opacity=".1 ">
+                                <h3 class="text-center "><i class="far fa-check-circle " style="color: #08836a " id="icon "></i> HIGH-SPEC CAMERAS</h3>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-3 ">
+                            <div class="ts-story ts-separate-bg-element justify-content-lg-start " data-animate="ts-fadeInUp " data-delay="0.1s " data-bg-color="rgba(0,0,0, 0.1) " data-bg-image="assets/img/pod-mic-2.jpeg " data-bg-image-opacity=".1 ">
+                                <h3 class="text-center "><i class="far fa-check-circle " style="color: #08836a " id="icon "></i> TOP-OF-THE-RANGE MICS</h3>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-3 ">
+                            <div class="ts-story ts-separate-bg-element " data-animate="ts-fadeInUp " data-delay="0.2s " data-bg-color="rgba(0,0,0, 0.1) " data-bg-image="assets/img/pod-remote-2.jpeg " data-bg-image-opacity=".1 ">
+
+                                <h3 class="text-center "><i class="far fa-check-circle " style="color: #08836a " id="icon "></i> REMOTE CONNECTION TECH</h3>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <div class="ts-story ts-separate-bg-element " data-animate="ts-fadeInUp " data-delay="0.1s " data-bg-color="rgba(1,1,1, 0.1) " data-bg-image="assets/img/pod-plat.jpeg " data-bg-image-opacity=".1 ">
+
+                                <h3 class="text-center "><i class="far fa-check-circle " style="color: #08836a " id="icon "></i> PODCAST PLATFORMS</h3>
+
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <!--end col-md-4-->
                     </div>
-                    <!--end ts-story-->
+
                 </div>
-                <!--end col-md-4-->
-                <div class="col-md-4 ">
-                    <div class="ts-story ts-separate-bg-element " data-animate="ts-fadeInUp " data-delay="0.2s " data-bg-color="rgba(0,0,0,.05) " data-bg-image="assets/img/img-bw-student-drawing.jpg " data-bg-image-opacity=".1 ">
-                        <figure>12.03.2018</figure>
-                        <h3>EyeSight Startup Successful Funding</h3>
-                        <p>Integer eleifend diam eu diam sollicitudin pharetra. Donec pulvinar</p>
-                        <a href="# " class="btn btn-primary btn-sm ">More</a>
+                <!--end container-->
+            </section>
+            <!--END SUCCESSFUL STORIES ******************************************************************************-->
+
+            <!--TIMELINE ********************************************************************************************-->
+
+            <!--END TIMELINE ****************************************************************************************-->
+
+            <!--PRICING *********************************************************************************************-->
+            <section id="testimonials" class="ts-block " data-bg-color="#f7f7f7 ">
+                <div class="container ">
+                    <div class="ts-title text-left ">
+                        <h2>Testimonials</h2>
+                        <p>What some of our happy clients are saying</p>
                     </div>
-                    <!--end ts-story-->
-                </div>
-                <!--end col-md-4-->
-            </div>
 
-        </div>
-        <!--end container-->
-    </section>
-    <!--END SUCCESSFUL STORIES ******************************************************************************-->
+                    <!--end ts-title-->
 
-    <!--TIMELINE ********************************************************************************************-->
-
-    <!--END TIMELINE ****************************************************************************************-->
-
-    <!--PRICING *********************************************************************************************-->
-    <section id="pricing " class="ts-block " data-bg-color="#f7f7f7 ">
-        <div class="container ">
-            <div class="ts-title text-center ">
-                <h2>Affordable Prices</h2>
-            </div>
-            <!--end ts-title-->
-            <div class="row no-gutters ts-cards-same-height ">
-                <!--Price Box-->
-                <div class="col-sm-4 col-lg-4 ">
-                    <div class="card text-center ts-price-box " data-animate="ts-fadeInUp ">
-                        <div class="card-header p-0 ">
-                            <h5 class="mb-0 py-3 text-white " data-bg-color="#1976bd ">Basic</h5>
-                            <div class="ts-title py-5 mb-0 ">
-                                <h3 class="mb-0 font-weight-normal ">Free</h3>
-                                <small class="ts-opacity__50 ">forever</small>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-01.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                                <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-02.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                                <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-03.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                                <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-04.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                                <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-05.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                                                <p class="overview"><b>Martin Sommer</b>, UX Analyst</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="media">
+                                                        <div class="media-left d-flex mr-3">
+                                                            <a href="#">
+                                                                <img src="assets/img/person-sm-06.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="testimonial">
+                                                                <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                                                                <p class="overview"><b>John Williams</b>, Web Developer</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!--end card-header-->
-                        <div class="card-body p-0 ">
-                            <ul class="list-unstyled ts-list-divided ">
-                                <li>1 hour Consultation</li>
-                                <li>3x Email Consultation</li>
-                                <li><s class="ts-opacity__50 ">Live Support</s></li>
-                                <li><s class="ts-opacity__50 ">Priority Hotline</s></li>
-                            </ul>
-                            <!--end list-->
-                        </div>
-                        <!--end card-body-->
-                        <div class="card-footer bg-transparent pt-0 ts-border-none ">
-                            <a href="# " class="btn btn-outline-dark ts-btn-border-muted ">Select Now</a>
-                        </div>
                     </div>
-                    <!--end card-->
+
+                    <!--end row-->
                 </div>
-                <!--end price-box col-md-4-->
-
-                <!--Price Box Promoted-->
-                <div class="col-sm-4 col-lg-4 ">
-                    <div class="card text-center ts-price-box ts-price-box__promoted " data-animate="ts-fadeInUp " data-delay="0.1s ">
-                        <div class="card-header p-0 " data-bg-color="#346de0 ">
-                            <h5 class="mb-0 py-3 text-white " data-bg-color="#08836a ">Most Popular</h5>
-                            <div class="ts-title text-white py-5 mb-0 ">
-                                <h3 class="mb-0 font-weight-normal ">
-                                    <sup>$</sup>9,99
-                                </h3>
-                                <small class="ts-opacity__50 ">per month</small>
-                            </div>
-                        </div>
-                        <!--end card-header-->
-                        <div class="card-body p-0 ">
-                            <ul class="list-unstyled ts-list-divided ">
-                                <li>16 Hours Consultation</li>
-                                <li>24 Emails Support</li>
-                                <li>4 Hours Email Support</li>
-                                <li><s class="ts-opacity__50 ">Priority Hotline</s></li>
-                            </ul>
-                            <!--end list-->
-                        </div>
-                        <!--end card-body-->
-                        <div class="card-footer bg-transparent pt-0 ts-border-none ">
-                            <a href="# " class="btn btn-primary ">Select Now</a>
-                        </div>
-                    </div>
-                    <!--end card-->
-                </div>
-                <!--end price-box col-md-4-->
-
-                <!--Price Box-->
-                <div class="col-sm-4 col-lg-4 ">
-                    <div class="card text-center ts-price-box " data-animate="ts-fadeInUp " data-delay="0.2s ">
-                        <div class="card-header p-0 ">
-                            <h5 class="mb-0 py-3 text-white " data-bg-color="#08836a ">Premium</h5>
-                            <div class="ts-title py-5 mb-0 ">
-                                <h3 class="mb-0 font-weight-normal ">
-                                    <sup>$</sup>19,99
-                                </h3>
-                                <small class="ts-opacity__50 ">per month</small>
-                            </div>
-                        </div>
-                        <!--end card-header-->
-                        <div class="card-body p-0 ">
-                            <ul class="list-unstyled ts-list-divided ">
-                                <li>Unlimited Consultation</li>
-                                <li>Unlimited Email Support</li>
-                                <li>Unlimited Live Support</li>
-                                <li>Priority Hotline</li>
-                            </ul>
-                            <!--end list-->
-                        </div>
-                        <!--end card-body-->
-                        <div class="card-footer bg-transparent pt-0 ts-border-none ">
-                            <a href="# " class="btn btn-outline-dark ts-btn-border-muted ">Select Now</a>
-                        </div>
-                    </div>
-                    <!--end card-->
-                </div>
-                <!--end price-box col-md-4-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </section>
-    <!--END PRICING *****************************************************************************************-->
+                <!--end container-->
+            </section>
+            <!--END PRICING *****************************************************************************************-->
 
 
-    <!--SUBSCRIBE *******************************************************************************************-->
-    <!-- <section id="subscribe " class="ts-block ts-separate-bg-element ts-background-repeat py-5 " data-bg-image="assets/img/pattern-topo.png " data-bg-image-opacity=".05 " data-bg-color="#ecf2fe ">
+            <!-- SUBSCRIBE *******************************************************************************************-->
+            <!-- <section id="subscribe " class="ts-block ts-separate-bg-element ts-background-repeat py-5 " data-bg-image="assets/img/pattern-topo.png " data-bg-image-opacity=".05 " data-bg-color="#ecf2fe ">
                 <div class="container py-5 ">
                     <div class="offset-lg-1 col-lg-10 ">
                         <h3>Subscribe For The Latest News!</h3>
@@ -580,23 +654,23 @@
                     </div>
                 </div>
             </section> -->
-    <!--END SUBSCRIBE ***************************************************************************************-->
+            <!--END SUBSCRIBE ***************************************************************************************-->
 
-    <!--OUR TEAM ********************************************************************************************-->
+            <!--OUR TEAM ********************************************************************************************-->
 
-    <!--END OUR TEAM ****************************************************************************************-->
+            <!--END OUR TEAM ****************************************************************************************-->
 
-    <!--GALLERY *********************************************************************************************-->
+            <!--GALLERY *********************************************************************************************-->
 
-    <!--end block-->
-    <!--END GALLERY *****************************************************************************************-->
-
-
-    <!--END HAPPY CLIENTS ***********************************************************************************-->
+            <!--end block-->
+            <!--END GALLERY *****************************************************************************************-->
 
 
-    <!--BUY NOW *********************************************************************************************-->
-    <!-- <section id="buy-now " class="ts-block text-center py-5 " data-bg-color="#fafafa ">
+            <!--END HAPPY CLIENTS ***********************************************************************************-->
+
+
+            <!--BUY NOW *********************************************************************************************-->
+            <!-- <section id="buy-now " class="ts-block text-center py-5 " data-bg-color="#fafafa ">
                 <div class="container ">
                     <div class="ts-title mb-3 ">
                         <h2 class="mb-0 ">Buy The FinWin Now!</h2>
@@ -604,43 +678,43 @@
                     <a href="# " class="btn btn-primary ">Buy Now!</a>
                 </div>
             </section> -->
-    <!--END BUY NOW *****************************************************************************************-->
-    <section id="successful-stories " class="ts-block pb-0 mb-0 ">
-        <div class="container ">
-            <div class="ts-title text-center ">
-                <h2>Book Now</h2>
-            </div>
+            <!--END BUY NOW *****************************************************************************************-->
+            <section id="book" class="ts-block pb-0 mb-0 ">
+                <div class="container ">
+                    <div class="ts-title text-center ">
+                        <h2>Ready to elevate your podcast series?</h2>
+                    </div>
 
 
-            <!-- <div class="col-md-12 "> -->
+                    <!-- <div class="col-md-12 "> -->
 
-            <script src="https://asset-tidycal.b-cdn.net//js/embed.js "></script>
-            <div id="tidycal-embed " data-path="rfussell17/30-minute-meeting "></div>
-
-
+                    <script src="https://bookme.name/js/booklikeaboss.embed.js?i=17364&h=ychBPdQgbBvFtv446mtBoJdU5tRR1je0CrdYaR57uWkjDwEOa04vhFi5emQ6" async></script>
+                    <!-- <script src=“https://bookme.name/js/booklikeaboss.embed.js?i=17355&h=NKfb0IgqOt1u7d27vcx3pPI5fqdpIN1fPSbIko9lAdKvpzqAFk6zDJ3BJUZ0” async></script>  Mat's -->
 
 
-            <!-- </div> -->
 
-        </div>
-    </section>
-    </main>
-    <!--end #content-->
 
-    <!--*********************************************************************************************************-->
-    <!--************ FOOTER *************************************************************************************-->
-    <!--*********************************************************************************************************-->
-    <footer id="ts-footer ">
+                    <!-- </div> -->
 
-        <!-- <div class="map ts-height__400px " id="map "></div> -->
+                </div>
+            </section>
+        </main>
+        <!--end #content-->
 
-        <section id="contact " class="ts-block " data-bg-color="#f7f7f7 ">
-            <div class="container ">
-                <div class="ts-box mb-0 p-5 ts-mt__n-10 " data-animate="ts-fadeInUp ">
-                    <div class="row ">
-                        <div class="col-md-4 ">
-                            <h3>Contact Us</h3>
-                            <address>
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <footer id="ts-footer" ts-footer-bg-color="#1976BD">
+
+            <!-- <div class="map ts-height__400px " id="map "></div> -->
+
+            <section id="contact " class="ts-block " data-bg-color="#f7f7f7 ">
+                <div class="container ">
+                    <div class="ts-box mb-0 p-5 ts-mt__n-10 " data-animate="ts-fadeInUp ">
+                        <div class="row ">
+                            <div class="col-md-4 ">
+                                <h3>Contact Us</h3>
+                                <address>
                                 <figure>
                                     2590 Rocky Road
                                     Philadelphia, PA 19108
@@ -657,63 +731,78 @@
                                 <div class="font-weight-bold ">Skype:</div>
                                 fin.win
                             </address>
-                            <!--end address-->
+                                <!--end address-->
+                            </div>
+                            <!--end col-md-4-->
+                            <div class="col-md-8 ">
+                                <h3>Contact Form</h3>
+                                <form id="form-contact" method="post " class="clearfix ts-form ts-form-email ts-inputs__transparent " data-php-path="assets/php/email.php ">
+                                    <div class="row ">
+                                        <div class="col-md-6 col-sm-6 ">
+                                            <div class="form-group ">
+                                                <label for="form-contact-name ">Your Name *</label>
+                                                <input type="text " class="form-control " id="form-contact-name " name="name " placeholder="Your Name " required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6 ">
+                                            <div class="form-group ">
+                                                <label for="form-contact-email ">Your Email *</label>
+                                                <input type="email " class="form-control " id="form-contact-email " name="email " placeholder="Your Email " required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="row ">
+                                        <div class="col-md-12 ">
+                                            <div class="form-group ">
+                                                <label for="form-contact-message ">Your Message *</label>
+                                                <textarea class="form-control " id="form-contact-message " rows="5 " name="message " placeholder="Your Message " required></textarea>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-12 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group clearfix ">
+                                        <button type="submit " class="btn btn-primary float-right " id="form-contact-submit ">Send a Message</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status "></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
                         </div>
-                        <!--end col-md-4-->
-                        <div class="col-md-8 ">
-                            <h3>Contact Form</h3>
-                            <form id="form-contact " method="post " class="clearfix ts-form ts-form-email ts-inputs__transparent " data-php-path="assets/php/email.php ">
-                                <div class="row ">
-                                    <div class="col-md-6 col-sm-6 ">
-                                        <div class="form-group ">
-                                            <label for="form-contact-name ">Your Name *</label>
-                                            <input type="text " class="form-control " id="form-contact-name " name="name " placeholder="Your Name " required>
-                                        </div>
-                                        <!--end form-group -->
-                                    </div>
-                                    <!--end col-md-6 col-sm-6 -->
-                                    <div class="col-md-6 col-sm-6 ">
-                                        <div class="form-group ">
-                                            <label for="form-contact-email ">Your Email *</label>
-                                            <input type="email " class="form-control " id="form-contact-email " name="email " placeholder="Your Email " required>
-                                        </div>
-                                        <!--end form-group -->
-                                    </div>
-                                    <!--end col-md-6 col-sm-6 -->
-                                </div>
-                                <!--end row -->
-                                <div class="row ">
-                                    <div class="col-md-12 ">
-                                        <div class="form-group ">
-                                            <label for="form-contact-message ">Your Message *</label>
-                                            <textarea class="form-control " id="form-contact-message " rows="5 " name="message " placeholder="Your Message " required></textarea>
-                                        </div>
-                                        <!--end form-group -->
-                                    </div>
-                                    <!--end col-md-12 -->
-                                </div>
-                                <!--end row -->
-                                <div class="form-group clearfix ">
-                                    <button type="submit " class="btn btn-primary float-right " id="form-contact-submit ">Send a Message</button>
-                                </div>
-                                <!--end form-group -->
-                                <div class="form-contact-status "></div>
-                            </form>
-                            <!--end form-contact -->
-                        </div>
+                        <!--end row-->
                     </div>
-                    <!--end row-->
+                    <!--end ts-box-->
                 </div>
-                <!--end ts-box-->
-                <div class="text-center text-white py-4 ">
-                    <small>© 2018 ThemeStarz, All Rights Reserved</small>
-                </div>
-            </div>
-            <!--end container-->
-        </section>
+                <!--end container-->
+            </section>
 
-    </footer>
-    <!--end #footer-->
+            <div class="footer-basic">
+                <footer>
+                    <div class="social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a><a href="#"><i class="fab fa-twitter fa-2x"></i></a><a href="#"><i class="far fa-podcast fa-2x"></i></a><a href="#"><i class="fab fa-facebook fa-2x"></i></a></div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="#">Services</a></li>
+                        <li class="list-inline-item"><a href="#">About</a></li>
+                        <li class="list-inline-item"><a href="#">Terms</a></li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <p class="copyright">Towncast Studios 2022</p>
+                </footer>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+        </footer>
+        <!--end #footer-->
 
     </div>
     <!--end page-->
