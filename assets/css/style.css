@@ -2338,6 +2338,14 @@ E. Template Specific Elements
     height: 100% !important;
 }
 
+.card {
+    transition: all .1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {
         font-size: 100%;
