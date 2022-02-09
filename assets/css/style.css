@@ -2244,6 +2244,10 @@ margin: 1rem;
     "fourth fourth fifth fifth";
 }
 
+link:hover {
+    color: #08836a;
+}
+
 .first {
   grid-area: first;
   margin-bottom: 0;
@@ -2265,6 +2269,11 @@ margin: 1rem;
 .fifth {
   grid-area: fifth;
 }
+
+/* .headshot {
+    width: 50%;
+    height: auto;
+} */
 
 .footer-basic {
   padding: 40px 0;
@@ -2384,7 +2393,7 @@ margin: 1rem;
 }
 
 .circle {
-  background-color: #f3f3f3;
+  background-color: black;
 }
 
 .card {
@@ -2396,7 +2405,7 @@ margin: 1rem;
 }
 
 .blue-span {
-  color: black;
+  color: #1976BD;
 }
 
 .blue-text {
