@@ -87,7 +87,7 @@ body {
   color: #191919;
   font-family: "museo", serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0;
 }
@@ -379,17 +379,33 @@ B. Helpers
 .ts-background-image,
 .ts-img-into-bg {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: 50%;
   height: 100%;
   overflow: hidden;
   width: 100%;
+  border-radius: 10px;
 }
+
+.ts-background-image-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
 
 .ts-background-image img,
 .ts-img-into-bg img {
   display: none;
 }
+
+.ts-background-image img {
+    border-radius: 10px;
+}
+
+
 
 .ts-background-original-size {
   background-size: inherit;
@@ -776,6 +792,14 @@ p {
 }
 
 .ts-xs-text-center {
+}
+
+ts-background-image rounded-corners {
+    border-radius: .25em;
+}
+
+img {
+    border-radius: .25em;
 }
 
 /*-------------------------------------------
@@ -1260,8 +1284,6 @@ blockquote h6 {
   border: none;
 }
 
-.ts-card__image {
-}
 
 /*-------------------------------------------
   -- Circle
@@ -1593,8 +1615,8 @@ body.has-loading-screen.loading-done:after {
 .navbar {
   font-size: 1rem;
   font-weight: 500;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   transition: 0.3s ease;
 }
 
@@ -2176,6 +2198,7 @@ E. Template Specific Elements
 .ts-story .ts-background,
 .ts-story .ts-background-image {
   transition: 0.3s ease;
+  height: 100%;
 }
 
 .ts-story figure {
@@ -2333,6 +2356,10 @@ link:hover {
   margin-bottom: 0;
 }
 
+.rounded-corners {
+    border-radius: 15px;
+}
+
 .carousel {
   margin: 0 auto;
   padding: 0;
@@ -2408,6 +2435,10 @@ link:hover {
   color: #1976BD;
 }
 
+.green-span {
+  color: #08836a;
+}
+
 .blue-text {
   color: color__black;
 }
@@ -2415,6 +2446,42 @@ link:hover {
 #ts-footer .ts-box {
   margin-top: -3.125rem;
 }
+
+.service-container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .pic { grid-area: 2 / 1 / 3 / 2; }
+  
+  .pic1 { grid-area: 1 / 1 / 2 / 2; }
+  
+  .text1 { grid-area: 2 / 1 / 3 / 2; }
+  
+  .text2 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .pic2 { grid-area: 2 / 2 / 3 / 3; }
+  
+  .pic3 { grid-area: 1 / 3 / 2 / 4; }
+  
+  .text3 { grid-area: 2 / 3 / 3 / 4; }
+  
+  .text4 { grid-area: 1 / 4 / 2 / 5; }
+  
+  .pic4 { grid-area: 2 / 4 / 3 / 5; }
+  
+  
+  
+  /* For presentation only, no need to copy the code below */
+
+  
+  
+
+/* .headshot {
+    object-position: center;
+} */
 
 .ts-tabs-presentation .tab-pane img {
   opacity: 0;
