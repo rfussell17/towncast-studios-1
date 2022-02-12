@@ -2473,6 +2473,18 @@ link:hover {
   .pic4 { grid-area: 2 / 4 / 3 / 5; }
   
   
+ 
+ 
+ /* @media (max-width: 1200px) {
+     #headingGroup h1 {
+         font-weight: 100;
+         font-size: 3rem;
+     }
+     .blurb h2 {
+         font-size: 2rem;
+     } */
+ }
+
   
   /* For presentation only, no need to copy the code below */
 
