@@ -2172,6 +2172,18 @@ E. Template Specific Elements
   color: #fff;
 }
 
+.ts-story:hover .check {
+    color: gold !important;
+}
+
+.check {
+    color: green;
+}
+
+.ts-story icon {
+    color: #fff;
+  }
+
 .ts-story:hover p {
   color: #fff;
 }
@@ -2180,9 +2192,21 @@ E. Template Specific Elements
   background-color: #1976bd !important;
 }
 
-.ts-story:hover #icon {
-  color: #fff !important;
+/* .ts-story:hover #icon {
+  color: gold!important;
 }
+
+
+
+.ts-story:hover .far fa-check-circle {
+    color: gold !important;
+  }
+
+  .far fa-check-circle:hover {
+      color: gold;
+  } */
+
+
 
 .ts-story:hover .ts-background-image {
   opacity: 0.3 !important;
@@ -2224,11 +2248,8 @@ E. Template Specific Elements
   }
   
   .ts-story-about:hover .ts-background {
-    background-color: #1976bd !important;
-  }
-  
-  .ts-story-about:hover #icon {
-    color: #fff !important;
+    background-color: rgba(25, 118, 189, 0.9) !important;
+    
   }
   
   .ts-story-about:hover .ts-background-image {
@@ -2472,8 +2493,22 @@ link:hover {
   
   .pic4 { grid-area: 2 / 4 / 3 / 5; }
   
-  
- 
+  .five-star-col {
+      background-color: #f3f3f3;
+      border: .25rem solid green;
+      border-radius: 5px;
+  }
+
+  /* .ts-story:hover #icon {
+    color: gold !important;
+} */
+
+  /* .first {
+    border-right: rem solid #1976BD;
+    border-left: .6rem solid #1976BD;
+  } */
+
+
  
  /* @media (max-width: 1200px) {
      #headingGroup h1 {
