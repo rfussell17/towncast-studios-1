@@ -384,7 +384,7 @@ B. Helpers
   height: 100%;
   overflow: hidden;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .ts-background-image-hero {
@@ -402,7 +402,7 @@ B. Helpers
 }
 
 .ts-background-image img {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 
@@ -969,11 +969,11 @@ C. Components
   padding-bottom: 4rem;
   padding-top: 4rem;
   position: relative;
-  /*
+  
   &:after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  width='103.987' height='105.599'%3E%3cpath fill='var(--color-primary-svg)' d='M101.017 45.961c-10.338 22.34-33.156 61.239-62.326 59.586-31.984-1.803-44.52-48.772-36.182-73.996 15.682-47.439 120.287-40.376 98.508 14.41-10.998 23.766 1.923-4.836 0 0z'/%3E%3c/svg%3E");
   }
-  */
+ 
 }
 
 .ts-block-inside {
@@ -2192,22 +2192,6 @@ E. Template Specific Elements
   background-color: #1976bd !important;
 }
 
-/* .ts-story:hover #icon {
-  color: gold!important;
-}
-
-
-
-.ts-story:hover .far fa-check-circle {
-    color: gold !important;
-  }
-
-  .far fa-check-circle:hover {
-      color: gold;
-  } */
-
-
-
 .ts-story:hover .ts-background-image {
   opacity: 0.3 !important;
 }
@@ -2222,7 +2206,7 @@ E. Template Specific Elements
 .ts-story .ts-background,
 .ts-story .ts-background-image {
   transition: 0.3s ease;
-  height: 100%;
+  width: 100%;
 }
 
 .ts-story figure {
@@ -2230,9 +2214,9 @@ E. Template Specific Elements
   color: rgba(25, 25, 25, 0.2);
   font-weight: 500;
   position: absolute;
-  top: -0.375rem;
+  /* top: -0.375rem;
   left: 3rem;
-  padding: 1rem;
+  padding: 1rem; */
   transform: rotate(-90deg);
   transform-origin: bottom;
 }
@@ -2265,6 +2249,15 @@ E. Template Specific Elements
   .ts-story-about .ts-background,
   .ts-story-about .ts-background-image {
     transition: 0.3s ease;
+  }
+
+#card-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
   }
   
 
@@ -2468,34 +2461,13 @@ link:hover {
   margin-top: -3.125rem;
 }
 
-.service-container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-  }
-  
-  .pic { grid-area: 2 / 1 / 3 / 2; }
-  
-  .pic1 { grid-area: 1 / 1 / 2 / 2; }
-  
-  .text1 { grid-area: 2 / 1 / 3 / 2; }
-  
-  .text2 { grid-area: 1 / 2 / 2 / 3; }
-  
-  .pic2 { grid-area: 2 / 2 / 3 / 3; }
-  
-  .pic3 { grid-area: 1 / 3 / 2 / 4; }
-  
-  .text3 { grid-area: 2 / 3 / 3 / 4; }
-  
-  .text4 { grid-area: 1 / 4 / 2 / 5; }
-  
-  .pic4 { grid-area: 2 / 4 / 3 / 5; }
+#card-img:hover {
+    background-color: #fff !important;
+}
   
   .five-star-col {
       background-color: #f3f3f3;
-      border: .25rem solid green;
+      box-shadow: 5px 3px 9px 2px rgba(143,125,125,0.55);
       border-radius: 5px;
   }
 
@@ -2568,8 +2540,9 @@ link:hover {
   transition: all 0.1s ease-in-out;
 }
 
-.card:hover {
+.card:hover, circle {
   transform: scale(1.01);
+  background-color: #f3f3f3;
 }
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
