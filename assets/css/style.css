@@ -387,6 +387,13 @@ B. Helpers
   border-radius: 5px;
 }
 
+.column-img {
+    overflow: hidden;
+   
+    width: 100%;
+    border-radius: 5px;
+}
+
 .ts-background-image-hero {
     background-repeat: no-repeat;
     background-size: cover;
