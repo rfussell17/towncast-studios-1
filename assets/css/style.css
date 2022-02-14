@@ -389,10 +389,18 @@ B. Helpers
 
 .column-img {
     overflow: hidden;
-   
     width: 100%;
     border-radius: 5px;
 }
+
+.column-img-2 {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+}
+
 
 .ts-background-image-hero {
     background-repeat: no-repeat;
@@ -410,6 +418,7 @@ B. Helpers
 
 .ts-background-image img {
     border-radius: 5px;
+    
 }
 
 
@@ -2214,6 +2223,7 @@ E. Template Specific Elements
 .ts-story .ts-background-image {
   transition: 0.3s ease;
   width: 100%;
+  background-size: cover;
 }
 
 .ts-story figure {
@@ -2468,9 +2478,6 @@ link:hover {
   margin-top: -3.125rem;
 }
 
-#card-img:hover {
-    background-color: #fff !important;
-}
   
   .five-star-col {
       background-color: #f3f3f3;
@@ -2478,36 +2485,6 @@ link:hover {
       border-radius: 5px;
   }
 
-  /* .ts-story:hover #icon {
-    color: gold !important;
-} */
-
-  /* .first {
-    border-right: rem solid #1976BD;
-    border-left: .6rem solid #1976BD;
-  } */
-
-
- 
- /* @media (max-width: 1200px) {
-     #headingGroup h1 {
-         font-weight: 100;
-         font-size: 3rem;
-     }
-     .blurb h2 {
-         font-size: 2rem;
-     } */
- }
-
-  
-  /* For presentation only, no need to copy the code below */
-
-  
-  
-
-/* .headshot {
-    object-position: center;
-} */
 
 .ts-tabs-presentation .tab-pane img {
   opacity: 0;
@@ -2545,11 +2522,12 @@ link:hover {
 
 .card {
   transition: all 0.1s ease-in-out;
+
 }
 
+
 .card:hover, circle {
-  transform: scale(1.01);
-  background-color: #f3f3f3;
+    
 }
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
