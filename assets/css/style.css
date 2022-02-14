@@ -2456,6 +2456,8 @@ link:hover {
 
 .card {
   background-color: #fff;
+  color: #1976bd;
+  border: 2px solid #f4f4f4;
 }
 
 .ts-item-body p {
