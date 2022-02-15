@@ -2505,6 +2505,22 @@ link:hover {
       color: #1976bd;
   }
 
+  .service-3-item {
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+      color: #1976BD;
+  }
+
+  .service-3-item:hover {
+      color: #1976BD;
+  }
+
+  .service-3-col {
+      margin: 1rem auto;
+      align-items: center;
+
+  }
 
 
   /// #08836a - green
