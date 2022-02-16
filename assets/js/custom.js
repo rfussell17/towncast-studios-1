@@ -384,7 +384,7 @@ $(".ts-scroll").on("click", function(event) {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: target.offset().top
-            }, 800, function() {
+            }, 1000, function() {
                 var $target = $(target);
                 $target.focus();
                 if ($target.is(":focus")) {
