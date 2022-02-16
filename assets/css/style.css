@@ -2196,7 +2196,7 @@ E. Template Specific Elements
 } */
 
 .check {
-    color: gold;
+    color: #F0A202;
 }
 
 .ts-story icon {
@@ -2508,7 +2508,7 @@ link:hover {
   .service-3-item {
       margin: 0 auto;
       padding: 0;
-      width: 100%;
+      width: 80%;
       color: #1976BD;
   }
 
