@@ -780,6 +780,11 @@ B. Helpers
 a {
   color: #1976bd;
   transition: 0.3s ease;
+  text-decoration: underline;
+}
+
+.btn, nav a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -2527,6 +2532,10 @@ link:hover {
 
 #ts-footer .ts-box {
   margin-top: -3.125rem;
+}
+
+footer {
+  background-color: #fafafa;
 }
 
   
