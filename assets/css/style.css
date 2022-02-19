@@ -2679,6 +2679,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .ts-promo-numbers h2 {
     font-size: 2.375rem;
   }
+
+  .img-cut {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
 }
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
@@ -2689,6 +2697,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   h1,
   .ts-h1 {
     font-size: 3rem;
+  }
+
+    .img-cut {
+    display: none;
+    margin: 0;
+    padding: 0;
   }
 
   h2,
@@ -2932,6 +2946,21 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media (max-width: 61.9375rem) {
   .ts-card__image {
     height: 15.625rem;
+  }
+
+
+  .img-cut {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-text {
+    order: 2;
+  }
+
+  .meet-img {
+    order: 1;
   }
 }
 
