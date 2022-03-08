@@ -147,6 +147,12 @@ h6,
   align-items: center;
 }
 
+#location {
+  z-index: -1;
+}
+
+
+
 
 /* NEW */
 
