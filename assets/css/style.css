@@ -134,7 +134,7 @@ h6,
   font-size: 1rem;
 }
 
-#us, #about-3, #mission, #team, #booking {
+#us, #about-3, #mission, #team {
   height: 100vh;
   display: flex;
   align-items: center;
