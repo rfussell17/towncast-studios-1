@@ -1,20 +1,15 @@
 /*----------------------------------------------------------------------------------------------------------------------
 Project:	    StartUps
 Version:        1.0.0
-
 Default Color   #ff6a6a;
-
 Body copy:		'Poppins', sans-serif; 15px;
 Headers:		'Poppins', sans-serif;
-
 ----------------------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------------------------------------------------------
 [Table of contents]
-
 A. Basic Styling
   -- Styling
-
 B. Helpers
   -- Animations
   -- Borders
@@ -38,7 +33,6 @@ B. Helpers
   -- Utilities
   -- Width
   -- Z-Index
-
 C. Components
   -- Block
   -- Blockquote
@@ -62,17 +56,13 @@ C. Components
   -- Select
   -- Slider
   -- Tabs
-
 D. Plugins Styles
   -- Magnific Popup
   -- Owl Carousel
-
 E. Template Specific Elements
   -- Price Box
   -- Other
   -- Story
-
-
 ----------------------------------------------------------------------------------------------------------------------*/
 
 /***********************************************************************************************************************
@@ -90,6 +80,7 @@ body {
   font-size: 1.1rem;
   margin: 0;
   padding: 0;
+  font-display: swap;
 }
 
 html {
@@ -155,6 +146,12 @@ h6,
   flex-direction: column;
   align-items: center;
 }
+
+#location {
+  z-index: -1;
+}
+
+
 
 
 /* NEW */
@@ -2249,7 +2246,6 @@ E. Template Specific Elements
 /* .ts-story:hover {
   color: #fff;
 }
-
 .ts-story:hover .check {
     color: gold !important;
 } */
@@ -2608,14 +2604,9 @@ li {
       background-color: #fff;
       
   }
-
-
-
   /* #services-2 {
-
 background-color: #F3F3F3;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231976BD' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23F3F3F3'%3E%3Ccircle cx='769' cy='229' r='25'/%3E%3Ccircle cx='539' cy='269' r='25'/%3E%3Ccircle cx='603' cy='493' r='25'/%3E%3Ccircle cx='731' cy='737' r='25'/%3E%3Ccircle cx='520' cy='660' r='25'/%3E%3Ccircle cx='309' cy='538' r='25'/%3E%3Ccircle cx='295' cy='764' r='25'/%3E%3Ccircle cx='40' cy='599' r='25'/%3E%3Ccircle cx='102' cy='382' r='25'/%3E%3Ccircle cx='127' cy='80' r='25'/%3E%3Ccircle cx='370' cy='105' r='25'/%3E%3Ccircle cx='578' cy='42' r='25'/%3E%3Ccircle cx='237' cy='261' r='25'/%3E%3Ccircle cx='390' cy='382' r='25'/%3E%3C/g%3E%3C/svg%3E");-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='765' height='765' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231976BD' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23F3F3F3'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
-
   } */
 
   /* .ts-story:hover {
@@ -2906,6 +2897,38 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-bottom: 1.875rem;
   }
 
+  .ts-background-image-hero {
+    display: none;
+    text-align: center;
+  }
+
+  #us {
+    margin-top: 5rem;
+  }
+
+  #services-1 {
+    height: 100%;
+    margin-bottom: 5rem;
+  }
+
+  #star {
+    margin-top: 5rem;
+  }
+
+  #mission {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #arrow-bottom {
+    display: none;
+  }
+
+  #booking {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
   .ts-promo-numbers h2 {
     font-size: 2.25rem;
   }
@@ -2965,16 +2988,99 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .ts-h4 {
     font-size: 1.25rem;
   }
-
   .navbar.navbar-expand-md .navbar-nav {
     align-items: center;
   }
-
   .navbar.navbar-expand-md .ts-background {
     opacity: 0;
   }
 }
+/* this one - mobile */ 
 
+@media (max-width: 61.9375rem) {
+  .ts-card__image {
+    height: 15.625rem;
+  }
+
+.button-group {
+  margin-bottom: 3em
+}
+  /* .img-cut {
+    display: none;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .team-text {
+    order: 2;
+  }
+
+  .meet-img {
+    order: 1;
+  }
+
+  .btn {
+    margin-top: 0;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .card-row {
+    margin-bottom: 0;
+  }
+
+  .row-img {
+    display: none;
+  }
+
+  .star-row {
+    margin: 0;
+  }
+
+  .five-star-col {
+    margin: 0;
+  }
+
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .meet-img {
+    order: 1;
+    margin-bottom: 1rem;
+  }
+
+  .meet-text {
+    order: 2;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 36rem) {
+  .navbar.navbar-expand-sm .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar.navbar-expand-sm .ts-background {
+    opacity: 0;
+  }
+
+  .ts-carousel-centered .owl-nav .owl-next {
+    right: 2.5rem;
+  }
+
+  .ts-carousel-centered .owl-nav .owl-prev {
+    left: 2.5rem;
+  }
+}
 
 
 
