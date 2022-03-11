@@ -154,6 +154,7 @@ h6,
 
 
 
+
 /* NEW */
 
 /***********************************************************************************************************************
@@ -2651,6 +2652,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .card {
   transition: all 0.1s ease-in-out;
 
+}
+
+.card-img {
+  height: 90%;
 }
 
 
