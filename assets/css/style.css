@@ -2864,7 +2864,7 @@ li {
 
 
 
-@media (min-width: 75rem) {
+@media (min-width: 1008px) {
   html {
     font-size: 100%;
   }
@@ -2909,11 +2909,11 @@ li {
     height: 15.625rem;
   } 
 
-  .navbar.navbar-expand-xl .navbar-nav {
+  .navbar.navbar-expand-md .navbar-nav {
     align-items: center;
   }
 
-  .navbar.navbar-expand-xl .ts-background {
+  .navbar.navbar-expand-md .ts-background {
     opacity: 0;
   }
 
@@ -3122,7 +3122,7 @@ li {
 
 /* this one - mobile */ 
 
-@media (min-width: 641px) and (max-width: 1007px) {
+@media (min-width: 541px) and (max-width: 1007px) {
 
   .navbar.navbar-expand-sm .navbar.navbar-expand-lg .navbar-nav {
     align-items: center;
@@ -3150,6 +3150,10 @@ li {
 
   .btn {
     margin-top: 0;
+  }
+
+  .button-group {
+    margin: 2rem;
   }
 
   .card {
@@ -3186,8 +3190,6 @@ li {
   .meet-text {
     order: 2;
   }
-
-
 
   #studio-section-btn {
     margin-bottom: 3.5rem;
@@ -3252,6 +3254,9 @@ li {
     font-size: 16px;
   }
 
+  .img-cut {
+    display: inline-block;
+  }
 
   .ts-promo-numbers h2 {
     font-size: 2.25rem;
@@ -3289,7 +3294,7 @@ li {
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 540px) {
   .navbar.navbar-expand-sm .navbar.navbar-expand-lg .navbar-nav {
     align-items: center;
   }
@@ -3307,4 +3312,80 @@ li {
     padding-right: 30px;
     font-size: 16px;
   }
+
+  .button-group {
+    margin-bottom: 3rem;
+  }
+
+  .meet-owner-title{
+    margin-top: 2em;
+  }
+
+  #team, #mission {
+    height: 100%;
+  }
+
+  .ts-background-image-hero {
+    display: none;
+    text-align: center;
+  }
+
+  #us {
+    margin-top: 5rem;
+  }
+
+  #services-1 {
+    height: 100%;
+    margin-bottom: 5rem;
+  }
+
+  #star {
+    margin-top: 5rem;
+  }
+
+  #mission {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #arrow-bottom {
+    display: none;
+  }
+
+  #booking {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  .img-cut {
+    display: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .meet-img {
+    order: 1;
+    margin-bottom: 1rem;
+  }
+
+  .meet-text {
+    order: 2;
+  }
+
+  #booking {
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .row-img {
+    padding: 0;
+    margin: 0;
+  }
+
 }
