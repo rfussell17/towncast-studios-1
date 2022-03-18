@@ -2594,6 +2594,15 @@ li {
     color: #1976BD;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   more-btn:hover {
     color:#08836a;
   }
