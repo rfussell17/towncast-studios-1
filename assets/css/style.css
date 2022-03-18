@@ -2701,6 +2701,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     column-count: 1;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .ts-column-count-sm-2 {
     column-count: 2;
   }
@@ -2740,6 +2749,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     display: none;
     margin: 0;
     padding: 0;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   h2,
@@ -2812,6 +2830,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .ts-block {
     padding-bottom: 6.25rem;
     padding-top: 6.25rem;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .ts-card__image {
@@ -2888,6 +2915,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     left: 5rem;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .floated form {
     padding: 2.5rem 5rem;
   }
@@ -2943,6 +2979,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-bottom: 5rem;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .ts-promo-numbers h2 {
     font-size: 2.25rem;
   }
@@ -2956,6 +3001,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   .ts-title {
     margin-bottom: 3.125rem;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .ts-block-inside {
@@ -2985,6 +3039,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     opacity: 0;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .floated {
     position: absolute;
   }
@@ -2994,6 +3057,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   h4,
   .ts-h4 {
     font-size: 1.125rem;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -3057,6 +3129,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin: 0;
   }
 
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .team-row {
     display: flex;
     flex-wrap: wrap;
@@ -3081,6 +3162,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media (min-width: 36rem) {
   .navbar.navbar-expand-sm .navbar-nav {
     align-items: center;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .navbar.navbar-expand-sm .ts-background {
@@ -3124,6 +3214,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   .btn {
     margin-top: 0;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .card {
@@ -3170,6 +3269,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media (min-width: 36rem) {
   .navbar.navbar-expand-sm .navbar-nav {
     align-items: center;
+  }
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .navbar.navbar-expand-sm .ts-background {
