@@ -2309,14 +2309,10 @@ E. Template Specific Elements
 .ts-story h3 {
     color: #fff;
 }
-
-
   
   .ts-story-about:hover {
     color: #fff;
   }
-  
-
   
   .ts-story-about:hover .ts-background-image {
     opacity: 0.3 !important;
@@ -2393,18 +2389,10 @@ link:hover {
   grid-area: fifth;
 }
 
-/* .headshot {
-    width: 50%;
-    height: auto;
-} */
-
 .footer-basic {
   padding: 40px 0;
    background-color: #f3f3f3;
 }
-
-
-
 
 .footer-basic ul {
   padding: 0;
@@ -2430,24 +2418,6 @@ link:hover {
   opacity: 1;
 }
 
-/* .footer-basic .social {
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-.footer-basic .social > a {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin: 0 8px;
-  color: inherit;
-  opacity: 0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity: 0.9;
-} */
-
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
@@ -2456,18 +2426,9 @@ link:hover {
   margin-bottom: 0;
 }
 
-.footer-basic p {
-  color: #aaa !important;
-}
-
 .rounded-corners {
     border-radius: 15px;
 }
-
-/* li, .social-icons {
-  color: rgba(0, 0, 0, 0.5);
-} */
-
 
 .carousel {
   margin: 0 auto;
@@ -2549,10 +2510,6 @@ link:hover {
 .ts-item-body p {
   color: #333;
 }
-
-/* small {
-  color: #aaa !important;
-} */
 
 .blue-span {
   color: #1976BD;
@@ -3028,18 +2985,6 @@ li {
     margin-left: 2em;
   }
 
-  .footer-ul {
-    color: #333 !important;
-  }
-
-  .footer-ul li{
-    color: #333 !important;
-  }
-
-  #footer-ul::after {
-    color: #333 !important;
-  }
-
   .tpc-img {
     order: 2;
     margin-top: 2em;
@@ -3048,5 +2993,4 @@ li {
   .tpc-text {
     order: 1;
   }
-
 }
