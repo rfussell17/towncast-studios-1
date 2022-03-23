@@ -841,6 +841,14 @@ img {
     border-radius: .25em;
 }
 
+.tpc-img {
+  order: 1;
+}
+
+.tpc-text {
+  order: 2;
+}
+
 /*-------------------------------------------
   -- Title
 -------------------------------------------*/
@@ -3017,7 +3025,7 @@ li {
   }
 
   #mobile-map {
-    margin-left: 3em;
+    margin-left: 2em;
   }
 
   .footer-ul {
@@ -3030,6 +3038,15 @@ li {
 
   #footer-ul::after {
     color: #333 !important;
+  }
+
+  .tpc-img {
+    order: 2;
+    margin-top: 2em;
+  }
+
+  .tpc-text {
+    order: 1;
   }
 
 }
