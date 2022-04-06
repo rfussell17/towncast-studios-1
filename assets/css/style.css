@@ -2922,6 +2922,14 @@ li {
     margin-bottom: 3rem;
   }
 
+  .joe-btn-group {
+    text-align: center;
+  }
+
+  .team-text {
+    text-align: center;
+  }
+
   .meet-owner-title{
     margin-top: 2em;
   }
