@@ -2927,7 +2927,7 @@ li {
 
   p {
     font-weight: 500;
-    color: #737373;
+    color: #737373 !important;
   }
 
   .navbar.navbar-expand-sm .ts-background {
