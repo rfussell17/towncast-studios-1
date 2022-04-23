@@ -120,6 +120,20 @@ h5,
   font-weight: 700;
 }
 
+p {
+  font-family: museo-slab, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #737373;
+}
+
+.dark-bg {
+  font-family: museo-slab, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #737373;
+}
+
 h6,
 .ts-h6 {
   font-size: 0.9375rem;
@@ -132,6 +146,7 @@ h6,
 .nav-link {
   font-weight: 900;
   font-size: 1rem;
+  color: #737373;
 }
 
 #us, #about-3, #mission, #team {
@@ -1707,6 +1722,7 @@ body.has-loading-screen.loading-done:after {
   padding-bottom: 1rem;
   padding-top: 1rem;
   transition: 0.3s ease;
+  color: #737373;
 }
 
 .navbar.in {
@@ -1900,7 +1916,7 @@ select::-ms-expand {
 }
 
 .nav-tabs .nav-link.active {
-  color: #191919;
+  color: #2c302e;
   background-color: transparent;
   border-bottom: 0.1875rem solid #3a79f9;
   opacity: 1;
@@ -2508,7 +2524,7 @@ link:hover {
 }
 
 .ts-item-body p {
-  color: #333;
+  color: #737373;
 }
 
 .blue-span {
@@ -2525,7 +2541,7 @@ link:hover {
 
 #ts-footer .ts-box {
   margin-top: -3.125rem;
-  color: #aaa !important;
+  color: #737373 !important;
 }
 
 
@@ -2855,6 +2871,11 @@ li {
     margin-top: 5rem;
   }
 
+  p {
+    font-weight: 500;
+    color: #737373;
+  }
+
   #services-1 {
     height: 100%;
     margin-bottom: 5rem;
@@ -2902,6 +2923,11 @@ li {
 @media (max-width: 540px) {
   .navbar.navbar-expand-sm .navbar.navbar-expand-lg .navbar-nav {
     align-items: center;
+  }
+
+  p {
+    font-weight: 500;
+    color: #737373;
   }
 
   .navbar.navbar-expand-sm .ts-background {
