@@ -2998,6 +2998,8 @@ li {
     opacity: 0;
   }
 
+
+
   .learn-more-secondary {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -3109,8 +3111,13 @@ li {
   }
 
   .promo-card {
-    margin-top: 3rem;
-    font-size: 18px;
+    /* margin-top: 3rem;
+    font-size: 18px; */
+    display: none;
+  }
+
+  #mobile-map {
+    margin: 0 auto;
   }
 
 }
