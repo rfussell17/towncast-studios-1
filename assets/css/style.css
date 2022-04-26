@@ -85,7 +85,6 @@ body {
 
 html {
   font-size: 80%;
-  /* scroll-behavior: smooth; */
 }
 
 h1,
@@ -169,6 +168,34 @@ h6,
 .footer-ul li{
   color: #333;
 }
+
+.card-text {
+  font-size: .85em;
+}
+
+.promo-card {
+  position: relative;
+}
+
+.promo-banner {
+  position: fixed;
+  top: 20px;
+  z-index: 2;
+}
+
+/* .promo-banner-container {
+  
+  position: sticky;
+  z-index: 5;
+} */
+
+/* section {
+  position: relative;
+  z-index: -1;
+} */
+
+
+
 
 
 
@@ -854,6 +881,7 @@ ts-background-image rounded-corners {
 
 img {
     border-radius: .25em;
+    position: relative;
 }
 
 .tpc-img {
@@ -1041,9 +1069,6 @@ C. Components
   position: relative;
 }
 
-section {
-  position: relative;
-}
 
 /*-------------------------------------------
   -- Blockquote
@@ -1358,6 +1383,8 @@ blockquote h6 {
   box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
   margin-bottom: 1.175rem;
   overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
 
 .card-columns .card {
@@ -2535,6 +2562,43 @@ link:hover {
   color: #08836a;
 }
 
+.black-span {
+  color: #2C302E;
+}
+
+ /* .promo-banner-container {
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  z-index: 5;
+  opacity: 1;
+} */
+
+.promo-banner {
+  position: fixed;
+  z-index: 5 !important;
+  top: 77px;
+  padding-bottom: 0;
+  width: 100vw;
+  background-color: #f7f7f7;
+  color: #737373;
+} 
+
+.promo-banner p {
+  color: #2C302E;
+  padding-top: 1em;
+}
+
+.promo-card p {
+  color: #2C302E;
+}
+
+.promo-card:hover {
+  opacity: 1 !important;
+}
+
+
+
 .blue-text {
   color: color__black;
 }
@@ -3017,6 +3081,10 @@ li {
     order: 2;
   }
 
+  .card-text {
+    font-size: .75em;
+  }
+
   #booking {
     height: 100%;
     margin-top: 0;
@@ -3038,6 +3106,11 @@ li {
 
   .tpc-text {
     order: 1;
+  }
+
+  .promo-card {
+    margin-top: 3rem;
+    font-size: 18px;
   }
 
 }
