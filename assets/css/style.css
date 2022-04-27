@@ -183,21 +183,6 @@ h6,
   z-index: 2;
 }
 
-/* .promo-banner-container {
-  
-  position: sticky;
-  z-index: 5;
-} */
-
-/* section {
-  position: relative;
-  z-index: -1;
-} */
-
-
-
-
-
 
 
 /* NEW */
@@ -347,7 +332,7 @@ B. Helpers
   -- Borders
 -------------------------------------------*/
 
-.ts-border-radius__sm {
+/* .ts-border-radius__sm {
   border-radius: 0.125rem;
   overflow: hidden;
 }
@@ -383,7 +368,7 @@ B. Helpers
 
 .ts-border-bottom {
   border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
-}
+} */
 
 .ts-font-color__white {
   color: #fff;
@@ -539,7 +524,7 @@ B. Helpers
   z-index: 1;
 }
 
-.ts-background-is-dark {
+/* .ts-background-is-dark {
   color: #fff;
 }
 
@@ -561,13 +546,13 @@ B. Helpers
 
 .ts-video-bg .fluid-width-video-wrapper {
   height: 100%;
-}
+} */
 
 /*-------------------------------------------
   -- Height
 -------------------------------------------*/
 
-.ts-height__50px {
+/* .ts-height__50px {
   height: 3.125rem;
 }
 
@@ -625,13 +610,13 @@ B. Helpers
 
 .ts-height__1000px {
   height: 62.5rem;
-}
+} */
 
 /*-------------------------------------------
   -- Margin
 -------------------------------------------*/
 
-.ts-mt__0 {
+/* .ts-mt__0 {
   margin-top: 0 !important;
 }
 
@@ -645,7 +630,7 @@ B. Helpers
 
 .ts-ml__0 {
   margin-left: 0 !important;
-}
+} */
 
 /*-------------------------------------------
   -- No Gutters - Removes padding from col*
