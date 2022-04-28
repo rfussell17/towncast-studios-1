@@ -6,15 +6,6 @@ var resizeId;
 $(document).ready(function($) {
     "use strict";
 
-    var latitude = 34.038405;
-    var longitude = -117.946944;
-    var markerImage = "assets/img/map-marker.png";
-    var mapElement = "map";
-    var mapStyle = [{ "featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{ "color": "#444444" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "color": "#f2f2f2" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi", "elementType": "labels.text", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 45 }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "color": "#dbdbdb" }, { "visibility": "on" }] }];
-    if ($("#map").length) {
-        simpleMap(latitude, longitude, markerImage, mapStyle, mapElement);
-    }
-
     $("body").imagesLoaded(function() {
         $("body").addClass("loading-done");
         $("[data-animate]").scrolla({
@@ -32,7 +23,7 @@ $(document).ready(function($) {
 
     //  Background
 
-    $("[data-bg-color], [data-bg-image], [data-bg-particles]").each(function() {
+    $("[data-bg-color], [data-bg-image]").each(function() {
         var $this = $(this);
 
         if ($this.hasClass("ts-separate-bg-element")) {
@@ -45,23 +36,6 @@ $(document).ready(function($) {
             }
 
             // Particles
-
-            if ($this.attr("data-bg-particles-line-color") || $this.attr("data-bg-particles-dot-color")) {
-                $this.find(".ts-background").append('<div class="ts-background-particles">');
-                $(".ts-background-particles").each(function() {
-                    var lineColor = $this.attr("data-bg-particles-line-color");
-                    var dotColor = $this.attr("data-bg-particles-dot-color");
-                    var parallax = $this.attr("data-bg-particles-parallax");
-                    $(this).particleground({
-                        density: 15000,
-                        lineWidth: 0.2,
-                        lineColor: lineColor,
-                        dotColor: dotColor,
-                        parallax: parallax,
-                        proximity: 200
-                    });
-                });
-            }
 
             // Background Image
 
