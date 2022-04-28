@@ -282,6 +282,8 @@ body {
  -------------------------------------------*/
   
  [data-bg-image] {
+   max-width: 1920px;
+   max-height: 1080px;
   background-size: cover;
   background-position: 30%;
  }
@@ -509,6 +511,16 @@ body {
     border-radius: .25em;
     position: relative;
  }
+
+ .landscape-img {
+   max-width: 750px;
+   max-height: 500px;
+ }
+
+.img-cut {
+  max-width: 500px;
+  max-height: 250px;
+}
   
  .tpc-img {
   order: 1;
