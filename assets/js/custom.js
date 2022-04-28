@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 var resizeId;
 
-$(document).ready(function($) {
+jQuery(function($) {
     "use strict";
 
     $("body").imagesLoaded(function() {
@@ -203,12 +203,12 @@ $(".ts-scroll").on("click", function(event) {
                 scrollTop: target.offset().top
             }, 1000, function() {
                 var $target = $(target);
-                $target.focus();
+                $target.on();
                 if ($target.is(":focus")) {
                     return false;
                 } else {
                     $target.attr('tabindex', '-1');
-                    $target.focus();
+                    $target.on();
                 }
             });
         }
