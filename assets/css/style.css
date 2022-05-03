@@ -1298,6 +1298,95 @@ body {
   align-items: center;
   justify-content: center;
  }
+
+ #pricing {
+   text-align: center;
+ }
+
+ .pricing-container {
+   
+
+ }
+
+ .section-title {
+  text-align: center;
+ }
+
+ .pricing-content-container {
+
+ }
+
+ .pricing-content {
+  backface-visibility: hidden;
+  border: none;
+  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.175rem;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+
+ }
+
+ .pricing-icon {
+
+ }
+
+ .pricing-title {
+   color: #1976bd;
+ }
+
+ .p-subtitle {
+   color: #737373;
+   font-weight: bold;
+ }
+
+ .pricing-subtitle {
+
+ }
+
+ .pricing-price {
+  font-size: 3rem;
+ }
+
+ .pricing-text p {
+ background-color: #dfe6ec;
+ color: #737373;
+ padding: 0;
+ margin: 0 auto;
+ line-height: 3em;
+ width: 100%;
+ align-items: center;
+
+ }
+
+ .pricing-text p:nth-child(odd){
+   background-color: #f4f7fc;
+ }
+
+ .pricing-subtitle {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 0;
+   margin-bottom: 0;
+ }
+
+ .pricing-hour {
+   color: #737373;
+   font-size: 0.9rem;
+ }
+
+ .pricing-subtitle p {
+   font-size: 0.68888em;
+   color: #737373;
+   font-family: "museo-slab", serif;
+   font-weight: 500;
+   padding-top: 0;
+ }
+
+ .pricing-btn-group {
+   background-color: #f4f7fc;
+ }
+
   
   
   
