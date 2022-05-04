@@ -1379,12 +1379,14 @@ body {
  }
 
 
+
+
  .price-2 p{
    line-height: 1.531em;
  }
 
  .price-3 p {
-   line-height: 1.1em;
+   line-height: 1.5222em;
  }
 
  .pricing-text ul {
@@ -1485,6 +1487,10 @@ body {
    background-color: #fff;
  }
 
+
+.second-col {
+  
+}
   
   
   
