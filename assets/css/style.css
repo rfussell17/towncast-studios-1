@@ -1299,6 +1299,10 @@ body {
   justify-content: center;
  }
 
+
+
+ /* Pricing One */
+
  #pricing {
    text-align: center;
  }
@@ -1488,9 +1492,67 @@ body {
  }
 
 
-.second-col {
-  
-}
+  /* Pricing Two */
+
+
+
+
+  /* Pricing Three */
+
+  /* Pricing Four */
+
+  .pricing-four {
+
+  }
+
+  .pricing-four ul {
+    background-color: #fff;
+    text-align: left;
+    font-family: museo-slab, serif;
+    font-weight: normal;
+    font-size: .9rem;
+    line-height: 4em;
+  }
+
+  .pricing-four li {
+    padding-top: .8em;
+    padding-bottom: .4em;
+    list-style: none;
+  }
+
+  .pricing-four ul li {
+    border-bottom: 1px solid #18947b;
+    padding-bottom: .7em;
+  }
+
+  .pricing-four li:only-child {
+    border: none;
+
+    padding-bottom: .7em;
+    width: 70%;
+    font-weight: 800;
+  }
+
+
+  .pricing-four li:last-child {
+    border: none;
+  }
+
+  .price-bracket {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+
+
+
+  /* Pricing Five */
+
+  /* Pricing Six */
+
+
+
+
   
   
   
@@ -1656,14 +1718,6 @@ body {
   #studio-section-btn {
     margin-bottom: 3.5rem;
   }
-
-  .joe-img {
-      -webkit-mask-image: url(w3logo.png);
-      mask-image: url(w3logo.png);
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-    }
-
   
   h1,
   .ts-h1 {
