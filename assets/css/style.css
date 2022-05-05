@@ -1656,6 +1656,14 @@ body {
   #studio-section-btn {
     margin-bottom: 3.5rem;
   }
+
+  .joe-img {
+      -webkit-mask-image: url(w3logo.png);
+      mask-image: url(w3logo.png);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+    }
+
   
   h1,
   .ts-h1 {
