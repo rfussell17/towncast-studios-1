@@ -1337,6 +1337,10 @@ body {
     font-size: 0.9rem;
   }
 
+  /* .pricing-text, .top-curve, .bottom-curve {
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.34);
+  } */
+
   .pricing-text p {
     background-color: #dfe6ec;
     font-weight: 600;
