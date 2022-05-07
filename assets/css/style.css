@@ -1300,255 +1300,69 @@ body {
  }
 
 
+  /* Pricing real */
 
- /* Pricing One */
-
- #pricing {
-   text-align: center;
- }
-
- .pricing-container {
-   
-
- }
-
- .section-title {
-  text-align: center;
- }
-
- .pricing-content-container {
-
- }
-
- .pricing-content {
-  backface-visibility: hidden;
-  border: none;
-  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
-  margin-bottom: 1.175rem;
-  overflow: hidden;
-  position: relative;
-  z-index: -1;
-
- }
-
- .pricing-icon {
-   margin-bottom: 1em;
- }
-
- .pricing-title {
-   color: #1976bd;
- }
-
- .p-subtitle {
-   color: #737373;
-   font-weight: bold;
-   margin: .5em;
-   font-size: .888em;
- }
-
- .pricing-subtitle {
-
- }
-
- .pricing-price {
-  font-size: 3.5rem;
-  margin-left: 1.1em;
-  margin-top: .5em;
-  margin-bottom: .5em;
- }
-
-
-
- .pricing-text p {
- background-color: #dfe6ec;
- font-weight: 600;
- font-size: .8888rem;
- color: #737373;
- padding: 0;
- margin: 0 auto;
- padding-top: .9em;
- padding-bottom: .9em;
- width: 100%;
- align-items: center;
- padding-left: 1em;
- padding-right: 1em;
- line-height: 1.3em;
- }
- 
-
- .price-1 p, .price-2 p, price-3 p {
-  padding: 1.5em;
-  line-height: 1.3em;
-
- }
-
-
-
-
- .price-2 p{
-   line-height: 1.531em;
- }
-
- .price-3 p {
-   line-height: 1.5222em;
- }
-
- .pricing-text ul {
-  background-color: #dfe6ec;
-  list-style: inside;
-  color: #737373;
-  padding-bottom: 0;
-  margin: 0 auto;
-  
- 
-  width: 100%;
-  align-items: center;
- }
-
- .pricing-text ul li {
-   margin-bottom: 0;
-   padding-bottom: 0;
-   line-height: 1.2em;
- }
-
- .third-ul {
-   background-color: #f4f7fc;
-   padding: 0;
-   line-height: 1.2em;
- }
-
- .first-ul {
-  background-color: #dfe6ec;
-  line-height: 1.2em;
- }
-
- .top-curve {
-   border-top-left-radius: 2em;
-   border-top-right-radius: 2em;
- }
- 
- .bottom-curve {
-   border-bottom-left-radius: 2em;
-   border-bottom-right-radius: 2em;
- }
-
- .solo-price {
-   border-radius: 2em;
-   
- }
-
- .pricing-text h5 {
-
- }
-
- .price-multi p{
-   line-height: 2px;
-   font-size:small;
-   padding: 0;
-   margin: 0;
- }
-
- .price-multi-li{
-   font-family: "museo-slab", serif;
-   font-weight: 500;
-   font-size: small;
-   background-color: #dfe6ec;
-   padding:0;
-   height: 100%;
- }
-
- .multi-p-header {
-
- }
-
- .pricing-text p:nth-child(odd){
-   background-color: #f4f7fc;
- }
-
- .pricing-subtitle {
-   display: flex;
-   flex-direction: column;
-   padding-top: 1em;
-   padding-bottom: 0;
-   margin-bottom: 0;
- }
-
- .pricing-hour {
-   color: #737373;
-   font-size: 0.9rem;
- }
-
- .pricing-subtitle p {
-   font-size: 0.48888em;
-   color: #737373;
-   font-family: "museo-slab", serif;
-   font-weight: 500;
-   padding-top: 0;
-   padding-bottom: 1em;
- }
-
- .pricing-btn-group {
-   background-color: #fff;
- }
-
-
-  /* Pricing Two */
-
-
-
-
-  /* Pricing Three */
-
-  /* Pricing Four */
-
-  .pricing-four {
-
+  .pricing-section {
+    box-shadow: none;
   }
 
-  .pricing-four ul {
-    background-color: #fff;
-    text-align: left;
-    font-family: museo-slab, serif;
-    font-weight: normal;
-    font-size: .9rem;
-    line-height: 4em;
+  .pricing-col {
+    box-shadow: none;
   }
 
-  .pricing-four li {
-    padding-top: .8em;
-    padding-bottom: .4em;
-    list-style: none;
+  .pricing-icon {
+    margin-bottom: 1em;
   }
 
-  .pricing-four ul li {
-    border-bottom: 1px solid #18947b;
-    padding-bottom: .7em;
+  .pricing-title {
+    color: #1976bd;
   }
 
-  .pricing-four li:only-child {
-    border: none;
-
-    padding-bottom: .7em;
-    width: 70%;
-    font-weight: 800;
-  }
-
-
-  .pricing-four li:last-child {
-    border: none;
-  }
-
-  .price-bracket {
-    font-size: 1.4em;
+  .p-subtitle {
+    color: #737373;
     font-weight: bold;
+    margin: .5em;
+    font-size: .888em;
   }
 
+  .pricing-price {
+    font-size: 3.5rem;
+    margin-left: 1.1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+   }
 
+  .pricing-hour {
+    color: #737373;
+    font-size: 0.9rem;
+  }
 
+  .pricing-text p {
+    background-color: #dfe6ec;
+    font-weight: 600;
+    font-size: .8888rem;
+    padding: 1.5em;
+    color: #737373;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    line-height: 1.3em;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.34);
+    }
 
-  /* Pricing Five */
+  .pricing-text p:nth-child(odd){
+    background-color: #f4f7fc;
+  }
 
-  /* Pricing Six */
+  .top-curve {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+  
+  .bottom-curve {
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
 
 
 
