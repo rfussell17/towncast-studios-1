@@ -831,7 +831,7 @@ link:hover {
  
 /*-------------------------------------------- 
 Promo Section
-------------------------------------------------*/
+*/
   
  .promo-banner {
   position: fixed;
@@ -978,85 +978,6 @@ Promo Section
    }
 
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- @media (min-width: 1008px) {
-  html {
-    font-size: 100%;
-  }
-  
-  h1,
-  .ts-h1 {
-    font-size: 3.5rem;
-  }
-  
-  h2,
-  .ts-h2 {
-    font-size: 2.25rem;
-  }
-  
-  h3,
-  .ts-h3 {
-    font-size: 1.625rem;
-  }
-  
-  .ts-block {
-    padding-bottom: 8.125rem;
-    padding-top: 8.125rem;
-  }
-  
-  .ts-card__image {
-    height: 15.625rem;
-  }
-  
-  .navbar.navbar-expand-md .navbar-nav {
-    align-items: center;
-  }
-  
-  .navbar.navbar-expand-md .ts-background {
-    opacity: 0;
-  }
-  
-  .floated form {
-    padding: 2.5rem 5rem;
-  }
-  
-  .learn-more-secondary {
-    padding-top: .63rem;
-    padding-bottom: .63rem;
-    margin-top: .1rem;
-    margin-bottom: .7rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  
-  .btn-group-2 {
-    display: flex;
-    height: 100%;
-    margin-bottom: 0;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #team {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
-
-
    /* NEW */
   
  /***********************************************************************************************************************
@@ -1195,11 +1116,92 @@ Promo Section
     transform: scale(1);
   }
  }
-  
- .ts-zoomInShort {
-  animation-name: ts-zoomInShort;
- }
 
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ @media (min-width: 1008px) {
+
+
+  /*Global */
+
+  html {
+    font-size: 100%;
+  }
+
+  /* Typography */
+
+  h1,
+  .ts-h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2,
+  .ts-h2 {
+    font-size: 2.25rem;
+  }
+  
+  h3,
+  .ts-h3 {
+    font-size: 1.625rem;
+  }
+  
+  .ts-block {
+    padding-bottom: 8.125rem;
+    padding-top: 8.125rem;
+  }
+
+  /* hero + nav */
+
+  .navbar.navbar-expand-md .navbar-nav {
+    align-items: center;
+  }
+  
+  .navbar.navbar-expand-md .ts-background {
+    opacity: 0;
+  }
+
+  /* Buttons */
+
+  .learn-more-secondary {
+    padding-top: .63rem;
+    padding-bottom: .63rem;
+    margin-top: .1rem;
+    margin-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .btn-group-2 {
+    display: flex;
+    height: 100%;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    display: block;
+  }
+
+  /* Layout */
+  
+  #team {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 
  }
   
@@ -1214,13 +1216,51 @@ Promo Section
   
  /* this one - mobile */
   
- @media (min-width: 541px) and (max-width: 1007px) {
-  
-  #ts-footer {
-    color: #fff;
-    background-color: #1976bd;
+ @media (min-width: 541px) and (max-width: 767px) {
+
+
+  /*Global */
+
+
+  body {
+    background-color: red;
+  }
+
+  /*Typography */
+
+  h1,
+  .ts-h1 {
+    margin-bottom: 1.25rem;
   }
   
+  .ts-xs-text-center {
+    text-align: center !important;
+  }
+  
+  .ts-title {
+    margin-bottom: 1.875rem;
+  }
+
+  p {
+    font-weight: 500;
+    color: #737373;
+  }
+
+  .ts-promo-numbers h2 {
+    font-size: 2.25rem;
+  }
+
+  /*Hero + Nav */
+
+  #ts-hero {
+    margin-top: 3rem;
+  }
+
+  .ts-background-image-hero {
+    /* display: none; */
+    text-align: center;
+  }
+
   .navbar.navbar-expand-sm .navbar.navbar-expand-lg .navbar-nav {
     align-items: center;
   }
@@ -1228,23 +1268,13 @@ Promo Section
   .navbar.navbar-expand-sm .ts-background {
     opacity: 0;
   }
-  
-  .ts-card__image {
-    height: 15.625rem;
-  }
-  
+
+  /*Buttons */
+
   .button-group {
     margin-bottom: 3em
   }
-  
-  .team-text {
-    order: 2;
-  }
-  
-  .meet-img {
-    order: 1;
-  }
-  
+
   .btn {
     margin-top: 0;
   }
@@ -1252,7 +1282,27 @@ Promo Section
   .button-group {
     margin: 2rem;
   }
+
+  #studio-section-btn {
+    margin-bottom: 3.5rem;
+  }
+
+  .learn-more-secondary {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
   
+  /*layout */
+
+  .promo-card {
+    display: none;
+  }
+
   .card {
     margin-bottom: 0;
   }
@@ -1260,11 +1310,15 @@ Promo Section
   .card-row {
     margin-bottom: 0;
   }
-  
-  .row-img {
-    display: none;
+
+  .team-text {
+    order: 2;
   }
-  
+
+  .meet-text {
+    order: 2;
+  }
+
   .star-row {
     margin: 0;
   }
@@ -1278,50 +1332,14 @@ Promo Section
     flex-wrap: wrap;
     text-align: center;
   }
-  
-  .meet-img {
-    order: 1;
-    margin-bottom: 1rem;
-  }
-  
-  .meet-text {
-    order: 2;
-  }
-  
-  #studio-section-btn {
-    margin-bottom: 3.5rem;
-  }
-  
-  h1,
-  .ts-h1 {
-    margin-bottom: 1.25rem;
-  }
-  
-  .ts-xs-text-center {
-    text-align: center !important;
-  }
-  
-  .ts-title {
-    margin-bottom: 1.875rem;
-  }
-  
-  .ts-background-image-hero {
-    /* display: none; */
-    text-align: center;
-  }
-  
-  #us {
-    margin-top: 5rem;
-  }
-  
-  p {
-    font-weight: 500;
-    color: #737373;
-  }
-  
+
   #services-1 {
     height: 100%;
     margin-bottom: 5rem;
+  }
+
+  #us {
+    margin-top: 5rem;
   }
   
   #star {
@@ -1341,27 +1359,34 @@ Promo Section
     margin-top: 8rem;
     margin-bottom: 5rem;
   }
-  
-  .learn-more-secondary {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
+
+  /*imgs  */
+
+  .ts-card__image {
+    height: 15.625rem;
+  }
+
+  .meet-img {
+    order: 1;
+    margin-bottom: 1rem;
+  }
+  .row-img {
+    display: none;
+  }
+
+  .ts-svg {
+    background-size: auto;
   }
   
   .img-cut {
     display: inline-block;
   }
-  
-  .ts-promo-numbers h2 {
-    font-size: 2.25rem;
-  }
 
-  .ts-svg {
-    background-size: auto;
+
+  /*Footer */
+  #ts-footer {
+    color: #fff;
+    background-color: #1976bd;
   }
  }
   
@@ -1423,9 +1448,9 @@ Promo Section
     text-align: center;
   }
 
-  .ts-svg {
+  /* .ts-svg {
     background-size: auto;
-  }
+  } */
   
   #us {
     margin-top: 5rem;
