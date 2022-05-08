@@ -59,13 +59,6 @@ body {
   color: #737373;
  }
   
- /* .dark-bg {
-  font-family: museo-slab, serif;
-  font-weight: 500;
-  font-style: normal;
-  color: #737373;
- }
-   */
  h6,
  .ts-h6 {
   font-size: 0.9375rem;
@@ -338,14 +331,6 @@ ts-background-image rounded-corners {
   margin-left: 0 auto;
  }
   
- /* .navbar-brand {
-  margin: 0 auto;
-  margin-top: 0;
-  padding-top: 0;
- } */
-
-
-
   /*-------------------------------------------
   -- Page
  -------------------------------------------*/
@@ -648,123 +633,9 @@ align-items: center;
 justify-content: center;
 }
   
-
-
-  
- /* .ts-background-size-cover {
-  background-size: cover;
- }
-  
- .ts-background-size-contain {
-  background-size: contain;
- }
-  
- .ts-background-repeat-x {
-  background-repeat: repeat-x;
- }
-  
- .ts-background-repeat-y {
-  background-repeat: repeat-y;
- }
-  
- .ts-background-repeat-repeat {
-  background-repeat: repeat;
-  background-size: inherit;
- }
-  
- .ts-background-position-top {
-  background-position: top;
- }
-  
- .ts-background-position-center {
-  background-position: center;
- }
-  
- .ts-background-position-bottom {
-  background-position: bottom;
- } */
-  
- .ts-background-position-left {
+.ts-background-position-left {
   background-position-x: left !important;
- }
-  
- /* .ts-background-position-right {
-  background-position-x: right !important;
- } */
-  
- /* .ts-background-particles {
-  height: 120%;
-  left: 0;
-  margin-left: -10%;
-  margin-top: -10%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 120%;
-  z-index: 1;
- } */
-  
- /*-------------------------------------------
-  -- Opacity
- -------------------------------------------*/
-  
- /* .ts-opacity__5 {
-  opacity: 0.05;
- }
-  
- .ts-opacity__10 {
-  opacity: 0.1;
- }
-  
- .ts-opacity__20 {
-  opacity: 0.2;
- }
-  
- .ts-opacity__30 {
-  opacity: 0.3;
- }
-  
- .ts-opacity__40 {
-  opacity: 0.4;
- }
-  
- .ts-opacity__50 {
-  opacity: 0.5;
- }
-  
- .ts-opacity__60 {
-  opacity: 0.6;
- }
-  
- .ts-opacity__70 {
-  opacity: 0.7;
- }
-  
- .ts-opacity__80 {
-  opacity: 0.8;
- }
-  
- .ts-opacity__90 {
-  opacity: 0.9;
- } */
-  
- /*-------------------------------------------
-  -- Overflow
- -------------------------------------------*/
-  
- /* .ts-overflow__hidden {
-  overflow: hidden;
- }
-  
- .ts-overflow__visible {
-  overflow: visible;
- }
-  
- .ts-push-left__100 {
-  transform: translateX(100%);
- } */
-  
-
+}
   
  /*-------------------------------------------
   -- Title
@@ -952,151 +823,15 @@ link:hover {
  /*-------------------------------------------
   -- List
  -------------------------------------------*/
-  
- /* ul {
-  line-height: 2.5rem;
-  list-style: none;
-  padding-left: 0;
- }
-  
- ul.ts-list-colored-bullets li:before {
-  content: "•";
-  color: #3a79f9;
-  vertical-align: middle;
-  font-size: 1.75rem;
-  padding-right: 0.75rem;
- }
-  
- ul.ts-list-divided li {
-  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 0.3125rem;
-  padding-top: 0.3125rem;
- }
-  
- ul.ts-list-divided li:last-child {
-  border-bottom: none;
- } */
 
  li {
   line-height: 1.8em;
  }
-  
 
-  
-  
-
-  
-  
- /* .check {
-    color: #F0A202;
- }
-  
- .ts-story icon {
-    color: #fff;
-  }
-  
- .ts-story p {
-  color: #fff;
- }
-  
- .ts-story .ts-background {
-  background-color: #1976bd !important;
-  }
-  
- .ts-story .ts-background-image {
-  opacity: 0.3 !important;
- }
-  
- .ts-story {
-  margin-bottom: 2rem;
-  padding: 14rem 2rem 2rem 2rem;
-  position: relative;
-  height: 100%;
- }
-  
- .ts-story .ts-background,
- .ts-story .ts-background-image {
-  transition: 0.3s ease;
-  width: 100%;
-  background-size: cover;
- }
-  
- .ts-story figure {
-  background-color: #fff;
-  color: rgba(25, 25, 25, 0.2);
-  font-weight: 500;
-  position: absolute;
-  transform: rotate(-90deg);
-  transform-origin: bottom;
- }
-  
- .ts-story h3 {
-    color: #fff;
- }
-   .ts-story-about:hover {
-    color: #fff;
-  }
-   .ts-story-about:hover .ts-background-image {
-    opacity: 0.3 !important;
-  }
-
-   .ts-story-about .ts-background,
-  .ts-story-about .ts-background-image {
-    transition: 0.3s ease;
-  } */
-  
-
-
-
- /* #card-img {
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    height: 100%;
-    overflow: hidden;
-    border-radius: 5px;
-  }
-  
-  #card-img:hover {
-    opacity: 0.9;
-  } */
-  /*-------------------------------------------
-  -- Other
- -------------------------------------------*/
-  
- /* Footer push up */
-  
- /* .container-about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem;
-  height: 100%;
- margin: 1rem;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "first first first first"
-    "second second third third"
-    "fourth fourth fifth fifth";
- } */
-  
-
-  
- /* .service-card-text {
-    background-color: #1976bd;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
- } */
-  
-
-
-
-
-/* 
+ 
+/*-------------------------------------------- 
 Promo Section
-*/
+------------------------------------------------*/
   
  .promo-banner {
   position: fixed;
