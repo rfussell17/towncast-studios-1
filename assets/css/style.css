@@ -1448,9 +1448,9 @@ Promo Section
     text-align: center;
   }
 
-  /* .ts-svg {
+  .ts-svg {
     background-size: auto;
-  } */
+  }
   
   #us {
     margin-top: 5rem;
