@@ -350,7 +350,7 @@ body {
   
  .ts-background-image img,
  .ts-img-into-bg img {
-  display: none;
+  /* display: none; */
  }
   
  .ts-background-image img {
@@ -402,7 +402,7 @@ body {
   background-position-x: right !important;
  }
   
- .ts-background-particles {
+ /* .ts-background-particles {
   height: 120%;
   left: 0;
   margin-left: -10%;
@@ -412,7 +412,7 @@ body {
   top: 0;
   width: 120%;
   z-index: 1;
- }
+ } */
   
  /*-------------------------------------------
   -- Opacity
@@ -943,11 +943,11 @@ body {
   margin-left: 0 auto;
  }
   
- .navbar-brand {
+ /* .navbar-brand {
   margin: 0 auto;
   margin-top: 0;
   padding-top: 0;
- }
+ } */
   
   
  /*-------------------------------------------
@@ -1556,7 +1556,7 @@ body {
   }
   
   .ts-background-image-hero {
-    display: none;
+    /* display: none; */
     text-align: center;
   }
   
@@ -1608,6 +1608,10 @@ body {
   
   .ts-promo-numbers h2 {
     font-size: 2.25rem;
+  }
+
+  .ts-svg {
+    background-size: auto;
   }
  }
   
@@ -1665,8 +1669,12 @@ body {
   }
   
   .ts-background-image-hero {
-    display: none;
+    /* display: none; */
     text-align: center;
+  }
+
+  .ts-svg {
+    background-size: auto;
   }
   
   #us {
