@@ -59,13 +59,13 @@ body {
   color: #737373;
  }
   
- .dark-bg {
+ /* .dark-bg {
   font-family: museo-slab, serif;
   font-weight: 500;
   font-style: normal;
   color: #737373;
  }
-  
+   */
  h6,
  .ts-h6 {
   font-size: 0.9375rem;
@@ -116,151 +116,7 @@ body {
   z-index: 2;
  }
   
-  
-  
- /* NEW */
-  
- /***********************************************************************************************************************
- B. Helpers
- ***********************************************************************************************************************/
-  
- /*-------------------------------------------
-  -- Animations
- -------------------------------------------*/
-  
- [data-animate] {
-  opacity: 0;
-  animation-fill-mode: forwards;
-  animation-duration: 0.6s;
-  animation-timing-function: ease;
- }
-  
- /* Fade In Up */
-  
- @keyframes ts-fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 1.25rem, 0);
-  }
-  
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
- }
-  
- .ts-fadeInUp {
-  animation-name: ts-fadeInUp;
- }
-  
- /* Fade In Down */
-  
- @keyframes ts-fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -1.25rem, 0);
-  }
-  
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
- }
-  
- .ts-fadeInDown {
-  animation-name: ts-fadeInDown;
- }
-  
- /* Fade In Left */
-  
- @keyframes ts-fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translate3d(-1.25rem, 0, 0);
-  }
-  
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
- }
-  
- .ts-fadeInLeft {
-  animation-name: ts-fadeInLeft;
- }
-  
- /* Fade In Right */
-  
- @keyframes ts-fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(1.25rem, 0, 0);
-  }
-  
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
- }
-  
- .ts-fadeInRight {
-  animation-name: ts-fadeInRight;
- }
-  
- /* Zoom In */
-  
- @keyframes ts-zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-  
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
- }
-  
- .ts-zoomIn {
-  animation-name: ts-zoomIn;
- }
-  
- /* Zoom Out In */
-  
- @keyframes ts-zoomOutIn {
-  from {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-  
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
- }
-  
- .ts-zoomOutIn {
-  animation-name: ts-zoomOutIn;
- }
-  
- /* Zoom In Short */
-  
- @keyframes ts-zoomInShort {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
- }
-  
- .ts-zoomInShort {
-  animation-name: ts-zoomInShort;
- }
-  
+
  .ts-font-color__white {
   color: #fff;
  }
@@ -275,6 +131,117 @@ body {
   
  .ts-font-color__secondary {
   color: #08836a;
+ }
+
+
+
+  /*-------------------------------------------
+  -- Typography
+ -------------------------------------------*/
+  
+ a {
+  color: #1976bd;
+  transition: 0.3s ease;
+  text-decoration: underline;
+ }
+  
+ .btn, nav a {
+  text-decoration: none;
+ }
+  
+ a:hover {
+  color: rgb(7, 84, 237);
+  text-decoration: none;
+ }
+  
+ p {
+  line-height: 1.6875rem;
+  margin-bottom: 1rem;
+  color: #737373;
+ }
+  
+ .ts-text-small {
+  font-size: 0.8125rem !important;
+ }
+  
+ .tpc-text {
+  order: 2;
+ }
+
+ .ts-item-body p {
+  color: #737373;
+ }
+  
+ .blue-span {
+  color: #1976BD;
+ }
+  
+ .green-span {
+  color: #08836a;
+ }
+  
+ .black-span {
+  color: #2C302E;
+ }
+
+
+ /*------------------------------------------ 
+ -- Imgs
+ ------------------------------------------*/
+
+ img {
+  border-radius: .25em;
+  position: relative;
+}
+
+.landscape-img {
+ max-width: 750px;
+ max-height: 500px;
+}
+
+.img-cut {
+max-width: 500px;
+max-height: 250px;
+}
+
+.tpc-img {
+order: 1;
+}
+
+ts-background-image rounded-corners {
+  border-radius: .25em;
+}
+  
+.column-img {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+ }
+  
+.column-img-2 {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+ }
+  
+  
+.ts-background-image-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+.ts-background-image img {
+    border-radius: 5px;   
+ }
+  
+.ts-background-original-size {
+  background-size: inherit;
  }
   
  /*-------------------------------------------
@@ -323,286 +290,137 @@ body {
   width: 100%;
   border-radius: 5px;
  }
-  
- .column-img {
-    overflow: hidden;
-    width: 100%;
-    border-radius: 5px;
- }
-  
- .column-img-2 {
-    overflow: hidden;
-    margin: auto;
-    width: 100%;
-    border-radius: 5px;
-    padding: 0;
- }
-  
-  
- .ts-background-image-hero {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    height: 100%;
-    overflow: hidden;
-    width: 100%;
-  }
-  
- .ts-background-image img,
- .ts-img-into-bg img {
-  /* display: none; */
- }
-  
- .ts-background-image img {
-    border-radius: 5px;   
- }
-  
- .ts-background-original-size {
-  background-size: inherit;
- }
-  
- .ts-background-size-cover {
-  background-size: cover;
- }
-  
- .ts-background-size-contain {
-  background-size: contain;
- }
-  
- .ts-background-repeat-x {
-  background-repeat: repeat-x;
- }
-  
- .ts-background-repeat-y {
-  background-repeat: repeat-y;
- }
-  
- .ts-background-repeat-repeat {
-  background-repeat: repeat;
-  background-size: inherit;
- }
-  
- .ts-background-position-top {
-  background-position: top;
- }
-  
- .ts-background-position-center {
-  background-position: center;
- }
-  
- .ts-background-position-bottom {
-  background-position: bottom;
- }
-  
- .ts-background-position-left {
-  background-position-x: left !important;
- }
-  
- .ts-background-position-right {
-  background-position-x: right !important;
- }
-  
- /* .ts-background-particles {
-  height: 120%;
-  left: 0;
-  margin-left: -10%;
-  margin-top: -10%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 120%;
-  z-index: 1;
- } */
-  
- /*-------------------------------------------
-  -- Opacity
+
+
+
+  /*-------------------------------------------
+  -- Hero
  -------------------------------------------*/
   
- .ts-opacity__5 {
-  opacity: 0.05;
- }
-  
- .ts-opacity__10 {
-  opacity: 0.1;
- }
-  
- .ts-opacity__20 {
-  opacity: 0.2;
- }
-  
- .ts-opacity__30 {
-  opacity: 0.3;
- }
-  
- .ts-opacity__40 {
-  opacity: 0.4;
- }
-  
- .ts-opacity__50 {
-  opacity: 0.5;
- }
-  
- .ts-opacity__60 {
-  opacity: 0.6;
- }
-  
- .ts-opacity__70 {
-  opacity: 0.7;
- }
-  
- .ts-opacity__80 {
-  opacity: 0.8;
- }
-  
- .ts-opacity__90 {
-  opacity: 0.9;
- }
-  
- /*-------------------------------------------
-  -- Overflow
- -------------------------------------------*/
-  
- .ts-overflow__hidden {
+ #ts-hero {
+  color: #fff;
+  display: flex;
+  position: relative;
   overflow: hidden;
  }
   
- .ts-overflow__visible {
-  overflow: visible;
- }
-  
- .ts-push-left__100 {
-  transform: translateX(100%);
+ #ts-hero .ts-background-image {
+  background-position: top center;
  }
   
  /*-------------------------------------------
-  -- Typography
+  -- Navbar
  -------------------------------------------*/
   
- a {
-  color: #1976bd;
+ .navbar {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   transition: 0.3s ease;
-  text-decoration: underline;
+  color: #737373;
  }
   
- .btn, nav a {
-  text-decoration: none;
+ .navbar.in {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
  }
   
- a:hover {
-  color: rgb(7, 84, 237);
-  text-decoration: none;
+ .navbar.in .ts-background {
+  opacity: 1 !important;
  }
   
- p {
-  line-height: 1.6875rem;
-  margin-bottom: 1rem;
-  color: rgba(0, 0, 0, 0.5);
+ .navbar .ts-background {
+  transition: 1s ease;
  }
   
- .ts-text-small {
-  font-size: 0.8125rem !important;
+ [class*="navbar-expand"] .navbar-nav .nav-link {
+  margin-left: 0 auto;
  }
   
- ts-background-image rounded-corners {
-    border-radius: .25em;
- }
-  
- img {
-    border-radius: .25em;
-    position: relative;
- }
+ /* .navbar-brand {
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 0;
+ } */
 
- .landscape-img {
-   max-width: 750px;
-   max-height: 500px;
- }
 
-.img-cut {
-  max-width: 500px;
-  max-height: 250px;
-}
+
+  /*-------------------------------------------
+  -- Page
+ -------------------------------------------*/
   
- .tpc-img {
-  order: 1;
- }
-  
- .tpc-text {
-  order: 2;
+ .ts-page-wrapper {
+  overflow: hidden;
  }
   
  /*-------------------------------------------
-  -- Title
+  -- Tabs
  -------------------------------------------*/
   
- .ts-title h5 {
+ .nav-tabs {
+  border-bottom: none;
+ }
+  
+ .nav-tabs h4 {
   font-weight: normal;
+  margin-bottom: 0;
+ }
+  
+ .nav-tabs .nav-link {
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1875rem solid transparent;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  padding-right: 0;
+  padding-left: 0;
+  color: inherit;
   opacity: 0.5;
  }
   
+ .nav-tabs .nav-link.active {
+  color: #2c302e;
+  background-color: transparent;
+  border-bottom: 0.1875rem solid #3a79f9;
+  opacity: 1;
+ }
+  
  /*-------------------------------------------
-  -- Utilities
+  -- Hero Form Floated
  -------------------------------------------*/
   
- .ts-element {
+ .floated {
   position: relative;
+  width: 100%;
+  z-index: 1;
+  bottom: -1.875rem;
  }
   
- /*-------------------------------------------
-  -- Z-index
- -------------------------------------------*/
-  
- .ts-z-index__-1 {
-  z-index: -1 !important;
- }
-  
- .ts-z-index__0 {
-  z-index: 0 !important;
- }
-  
- .ts-z-index__1 {
-  z-index: 1 !important;
- }
-  
- .ts-z-index__2 {
-  z-index: 2 !important;
- }
-  
- .ts-z-index__1000 {
-  z-index: 1000 !important;
- }
-  
- /***********************************************************************************************************************
- C. Components
- ***********************************************************************************************************************/
-  
- /*-------------------------------------------
-  -- Block
- -------------------------------------------*/
-  
- .ts-block {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+ .floated form {
   position: relative;
- }
-  
- .ts-block-inside {
-  padding: 1.25rem;
-  position: relative;
+  padding: 1.875rem 3.75rem;
  }
   
  /*-------------------------------------------
-  -- Box
+  -- SVG Shapes
  -------------------------------------------*/
   
- .ts-box {
-  background-color: #fff;
-  border-radius: 0.25rem;
-  margin-bottom: 1.875rem;
-  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
-  padding: 1.5625rem;
+ .ts-svg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin: auto;
  }
-  
- /*-------------------------------------------
+
+
+  /*-------------------------------------------
   -- Buttons
  -------------------------------------------*/
   
@@ -804,13 +622,231 @@ body {
  .ts-btn-border-muted {
   border-color: rgba(25, 25, 25, 0.1);
  }
+
+ .more-btn {
+  color: #1976BD;
+}
+
+.learn-more-secondary {
+  padding-top: .63rem;
+  padding-bottom: .63rem;
+  margin-top: .1rem;
+  margin-bottom: .7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+more-btn:hover {
+  color:#08836a;
+}
+
+.btn-group-2 {
+display: flex;
+height: 100%;
+margin-bottom: 0;
+align-items: center;
+justify-content: center;
+}
   
+
+
+  
+ /* .ts-background-size-cover {
+  background-size: cover;
+ }
+  
+ .ts-background-size-contain {
+  background-size: contain;
+ }
+  
+ .ts-background-repeat-x {
+  background-repeat: repeat-x;
+ }
+  
+ .ts-background-repeat-y {
+  background-repeat: repeat-y;
+ }
+  
+ .ts-background-repeat-repeat {
+  background-repeat: repeat;
+  background-size: inherit;
+ }
+  
+ .ts-background-position-top {
+  background-position: top;
+ }
+  
+ .ts-background-position-center {
+  background-position: center;
+ }
+  
+ .ts-background-position-bottom {
+  background-position: bottom;
+ } */
+  
+ .ts-background-position-left {
+  background-position-x: left !important;
+ }
+  
+ /* .ts-background-position-right {
+  background-position-x: right !important;
+ } */
+  
+ /* .ts-background-particles {
+  height: 120%;
+  left: 0;
+  margin-left: -10%;
+  margin-top: -10%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 120%;
+  z-index: 1;
+ } */
+  
+ /*-------------------------------------------
+  -- Opacity
+ -------------------------------------------*/
+  
+ /* .ts-opacity__5 {
+  opacity: 0.05;
+ }
+  
+ .ts-opacity__10 {
+  opacity: 0.1;
+ }
+  
+ .ts-opacity__20 {
+  opacity: 0.2;
+ }
+  
+ .ts-opacity__30 {
+  opacity: 0.3;
+ }
+  
+ .ts-opacity__40 {
+  opacity: 0.4;
+ }
+  
+ .ts-opacity__50 {
+  opacity: 0.5;
+ }
+  
+ .ts-opacity__60 {
+  opacity: 0.6;
+ }
+  
+ .ts-opacity__70 {
+  opacity: 0.7;
+ }
+  
+ .ts-opacity__80 {
+  opacity: 0.8;
+ }
+  
+ .ts-opacity__90 {
+  opacity: 0.9;
+ } */
+  
+ /*-------------------------------------------
+  -- Overflow
+ -------------------------------------------*/
+  
+ /* .ts-overflow__hidden {
+  overflow: hidden;
+ }
+  
+ .ts-overflow__visible {
+  overflow: visible;
+ }
+  
+ .ts-push-left__100 {
+  transform: translateX(100%);
+ } */
+  
+
+  
+ /*-------------------------------------------
+  -- Title
+ -------------------------------------------*/
+  
+ .ts-title h5 {
+  font-weight: normal;
+  opacity: 0.5;
+ }
+  
+ /*-------------------------------------------
+  -- Utilities
+ -------------------------------------------*/
+  
+ .ts-element {
+  position: relative;
+ }
+  
+ /*-------------------------------------------
+  -- Z-index
+ -------------------------------------------*/
+  
+ .ts-z-index__-1 {
+  z-index: -1 !important;
+ }
+  
+ .ts-z-index__0 {
+  z-index: 0 !important;
+ }
+  
+ .ts-z-index__1 {
+  z-index: 1 !important;
+ }
+  
+ .ts-z-index__2 {
+  z-index: 2 !important;
+ }
+  
+ .ts-z-index__1000 {
+  z-index: 1000 !important;
+ }
+  
+ /***********************************************************************************************************************
+ C. Components
+ ***********************************************************************************************************************/
+  
+ /*-------------------------------------------
+  -- Block
+ -------------------------------------------*/
+  
+ .ts-block {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  position: relative;
+ }
+  
+ .ts-block-inside {
+  padding: 1.25rem;
+  position: relative;
+ }
+  
+ /*-------------------------------------------
+  -- Box
+ -------------------------------------------*/
+  
+ .ts-box {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 1.875rem;
+  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
+  padding: 1.5625rem;
+ }
+  
+
  /*-------------------------------------------
   -- Card
  -------------------------------------------*/
   
  .card {
   backface-visibility: hidden;
+  background-color: #fff;
+  color: #1976bd;
   border: none;
   box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
   margin-bottom: 1.175rem;
@@ -828,6 +864,20 @@ body {
  .card-header {
   padding: 1.5625rem;
  }
+
+ .ts-story-about {
+  padding: 2rem;
+  position: relative;
+  color: #fff;
+}
+
+link:hover {
+  color: #08836a;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
   
  .ts-item {
   height: 100%;
@@ -868,13 +918,42 @@ body {
  .ts-item-body {
   flex: 1 1 auto;
  }
+
+ .five-star-col {
+  background-color: #fff;
+  box-shadow: 5px 3px 9px 2px rgba(143,125,125,0.55);
+  border-radius: 5px;
+}
+
+.five-star-col h3 {
+  color: #1976bd;
+}
+
+.five-star-col, .pricing-text, .card { transition: all .2s ease-in-out; }
+.five-star-col:hover, .pricing-text:hover, .card:hover { transform: scale(0.98); }
+
+.service-3-item {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  color: #1976BD;
+}
+
+.service-3-item:hover {
+  color: #1976BD;
+}
+
+.service-3-col {
+  margin: 1rem auto;
+  align-items: center;
+}
   
   
  /*-------------------------------------------
   -- List
  -------------------------------------------*/
   
- ul {
+ /* ul {
   line-height: 2.5rem;
   list-style: none;
   padding-left: 0;
@@ -896,135 +975,19 @@ body {
   
  ul.ts-list-divided li:last-child {
   border-bottom: none;
- }
-  
- /*-------------------------------------------
-  -- Hero
- -------------------------------------------*/
-  
- #ts-hero {
-  color: #fff;
-  display: flex;
-  position: relative;
-  overflow: hidden;
- }
-  
- #ts-hero .ts-background-image {
-  background-position: top center;
- }
-  
- /*-------------------------------------------
-  -- Navbar
- -------------------------------------------*/
-  
- .navbar {
-  font-size: 1rem;
-  font-weight: 500;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  transition: 0.3s ease;
-  color: #737373;
- }
-  
- .navbar.in {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
- }
-  
- .navbar.in .ts-background {
-  opacity: 1 !important;
- }
-  
- .navbar .ts-background {
-  transition: 1s ease;
- }
-  
- [class*="navbar-expand"] .navbar-nav .nav-link {
-  margin-left: 0 auto;
- }
-  
- /* .navbar-brand {
-  margin: 0 auto;
-  margin-top: 0;
-  padding-top: 0;
  } */
-  
-  
- /*-------------------------------------------
-  -- Page
- -------------------------------------------*/
-  
- .ts-page-wrapper {
-  overflow: hidden;
+
+ li {
+  line-height: 1.8em;
  }
   
- /*-------------------------------------------
-  -- Tabs
- -------------------------------------------*/
-  
- .nav-tabs {
-  border-bottom: none;
- }
-  
- .nav-tabs h4 {
-  font-weight: normal;
-  margin-bottom: 0;
- }
-  
- .nav-tabs .nav-link {
-  background-color: transparent;
-  border: none;
-  border-bottom: 0.1875rem solid transparent;
-  margin-left: 0.9375rem;
-  margin-right: 0.9375rem;
-  padding-right: 0;
-  padding-left: 0;
-  color: inherit;
-  opacity: 0.5;
- }
-  
- .nav-tabs .nav-link.active {
-  color: #2c302e;
-  background-color: transparent;
-  border-bottom: 0.1875rem solid #3a79f9;
-  opacity: 1;
- }
-  
- /*-------------------------------------------
-  -- Hero Form Floated
- -------------------------------------------*/
-  
- .floated {
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  bottom: -1.875rem;
- }
-  
- .floated form {
-  position: relative;
-  padding: 1.875rem 3.75rem;
- }
-  
- /*-------------------------------------------
-  -- SVG Shapes
- -------------------------------------------*/
-  
- .ts-svg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  top: 0;
-  z-index: -1;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  margin: auto;
- }
+
   
   
- .check {
+
+  
+  
+ /* .check {
     color: #F0A202;
  }
   
@@ -1076,17 +1039,16 @@ body {
    .ts-story-about:hover .ts-background-image {
     opacity: 0.3 !important;
   }
-   .ts-story-about {
-    padding: 2rem;
-    position: relative;
-    color: #fff;
-  }
+
    .ts-story-about .ts-background,
   .ts-story-about .ts-background-image {
     transition: 0.3s ease;
-  }
+  } */
   
- #card-img {
+
+
+
+ /* #card-img {
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -1097,14 +1059,14 @@ body {
   
   #card-img:hover {
     opacity: 0.9;
-  }
+  } */
   /*-------------------------------------------
   -- Other
  -------------------------------------------*/
   
  /* Footer push up */
   
- .container-about {
+ /* .container-about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -1116,82 +1078,25 @@ body {
     "first first first first"
     "second second third third"
     "fourth fourth fifth fifth";
- }
+ } */
   
- link:hover {
-    color: #08836a;
- }
+
   
- .footer-basic {
-  padding: 40px 0;
-   background-color: #f3f3f3;
- }
-  
- .footer-basic ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  margin-bottom: 0;
-  color: #333;
- }
-  
- .footer-basic li {
-  padding: 0 10px;
- }
-  
- .footer-basic ul a {
-  color: #333;
-  text-decoration: none;
-  opacity: 0.8;
- }
-  
- .footer-basic ul a:hover {
-  opacity: 1;
- }
-  
- .footer-basic .copyright {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 0;
- }
-  
- .rounded-corners {
-    border-radius: 15px;
- }
-  
- .card {
-  background-color: #fff;
-  color: #1976bd;
-  border: 2px solid #f4f4f4;
- }
-  
- .service-card-text {
+ /* .service-card-text {
     background-color: #1976bd;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
- }
+ } */
   
- .ts-item-body p {
-  color: #737373;
- }
-  
- .blue-span {
-  color: #1976BD;
- }
-  
- .green-span {
-  color: #08836a;
- }
-  
- .black-span {
-  color: #2C302E;
- }
+
+
+
+
+/* 
+Promo Section
+*/
   
  .promo-banner {
   position: fixed;
@@ -1216,96 +1121,10 @@ body {
   opacity: 1 !important;
  }
   
- .blue-text {
-  color: color__black;
- }
-  
- #ts-footer .ts-box {
-  margin-top: -3.125rem;
-  color: #737373 !important;
- }
-  
- li {
-  line-height: 1.8em;
- }
-  .five-star-col {
-      background-color: #fff;
-      box-shadow: 5px 3px 9px 2px rgba(143,125,125,0.55);
-      border-radius: 5px;
-  }
-  
-  .five-star-col h3 {
-      color: #1976bd;
-  }
 
-  .five-star-col, .pricing-text, .card { transition: all .2s ease-in-out; }
-  .five-star-col:hover, .pricing-text:hover, .card:hover { transform: scale(0.98); }
-  
-  .service-3-item {
-      margin: 0 auto;
-      padding: 0;
-      width: 80%;
-      color: #1976BD;
-  }
-  
-  .service-3-item:hover {
-      color: #1976BD;
-  }
-  
-  .service-3-col {
-      margin: 1rem auto;
-      align-items: center;
-  
-  }
-  
-  .more-btn {
-    color: #1976BD;
-  }
-  
-  .learn-more-secondary {
-    padding-top: .63rem;
-    padding-bottom: .63rem;
-    margin-top: .1rem;
-    margin-bottom: .7rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  
-  more-btn:hover {
-    color:#08836a;
-  }
-  
- /* .card {
-  transition: all 0.1s ease-in-out;
-  
- } */
-
-
-
- /* .card-img {
-  height: 90%;
- }
-   */
-  
- .footer-contact {
-  font-size: .8em;
-  line-height: 1.3em;
- }
-  
- /* .card:hover{
-    opacity: 0.9;
- } */
-  
- .btn-group-2 {
-  display: flex;
-  height: 100%;
-  margin-bottom: 0;
-  align-items: center;
-  justify-content: center;
- }
-
-
-  /* Pricing real */
+  /*-------------------- 
+  Pricing
+  ---------------------*/
 
   .pricing-section {
     box-shadow: none;
@@ -1342,10 +1161,6 @@ body {
     font-size: 0.9rem;
   }
 
-  /* .pricing-text, .top-curve, .bottom-curve {
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.34);
-  } */
-
   .pricing-text p {
     background-color: #dfe6ec;
     font-weight: 600;
@@ -1373,6 +1188,59 @@ body {
     border-bottom-right-radius: 2em;
   }
 
+
+
+  /*------------------------ 
+  Footer
+  ------------------------*/
+
+
+  .footer-basic {
+    padding: 40px 0;
+     background-color: #f3f3f3;
+   }
+    
+   .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+    color: #333;
+   }
+    
+   .footer-basic li {
+    padding: 0 10px;
+   }
+    
+   .footer-basic ul a {
+    color: #333;
+    text-decoration: none;
+    opacity: 0.8;
+   }
+    
+   .footer-basic ul a:hover {
+    opacity: 1;
+   }
+    
+   .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+   }
+
+   .footer-contact {
+    font-size: .8em;
+    line-height: 1.3em;
+   }
+
+   #ts-footer .ts-box {
+    margin-top: -3.125rem;
+    color: #737373 !important;
+   }
 
 
 
@@ -1451,6 +1319,153 @@ body {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
+
+
+
+   /* NEW */
+  
+ /***********************************************************************************************************************
+ B. Helpers
+ ***********************************************************************************************************************/
+  
+ /*-------------------------------------------
+  -- Animations
+ -------------------------------------------*/
+  
+ [data-animate] {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-timing-function: ease;
+ }
+  
+ /* Fade In Up */
+  
+ @keyframes ts-fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1.25rem, 0);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+ }
+  
+ .ts-fadeInUp {
+  animation-name: ts-fadeInUp;
+ }
+  
+ /* Fade In Down */
+  
+ @keyframes ts-fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -1.25rem, 0);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+ }
+  
+ .ts-fadeInDown {
+  animation-name: ts-fadeInDown;
+ }
+  
+ /* Fade In Left */
+  
+ @keyframes ts-fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-1.25rem, 0, 0);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+ }
+  
+ .ts-fadeInLeft {
+  animation-name: ts-fadeInLeft;
+ }
+  
+ /* Fade In Right */
+  
+ @keyframes ts-fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(1.25rem, 0, 0);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+ }
+  
+ .ts-fadeInRight {
+  animation-name: ts-fadeInRight;
+ }
+  
+ /* Zoom In */
+  
+ @keyframes ts-zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+ }
+  
+ .ts-zoomIn {
+  animation-name: ts-zoomIn;
+ }
+  
+ /* Zoom Out In */
+  
+ @keyframes ts-zoomOutIn {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+ }
+  
+ .ts-zoomOutIn {
+  animation-name: ts-zoomOutIn;
+ }
+  
+ /* Zoom In Short */
+  
+ @keyframes ts-zoomInShort {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+ }
+  
+ .ts-zoomInShort {
+  animation-name: ts-zoomInShort;
+ }
+
+
  }
   
   
