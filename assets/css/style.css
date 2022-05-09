@@ -16,8 +16,6 @@ body {
   font-display: swap;
  }
 
-
-  
  html {
   font-size: 100%;
  }
@@ -41,31 +39,6 @@ body {
    font-size: 1.625rem;
  }
  
- .ts-block {
-   padding-bottom: 8.125rem;
-   padding-top: 8.125rem;
- }
-  
- /* h1,
- .ts-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
- }
-  
- h2,
- .ts-h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #2C302E;
- }
-  
- h3,
- .ts-h3 {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
- } */
-  
  h4,
  .ts-h4 {
   font-weight: 700;
@@ -245,7 +218,6 @@ ts-background-image rounded-corners {
     padding: 0;
  }
   
-  
 .ts-background-image-hero {
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,29 +260,6 @@ ts-background-image rounded-corners {
   height: 100%;
   width: 100%;
  }
-  
- .ts-background-repeat {
-  background-repeat: repeat;
-  background-size: inherit;
- }
-  
- .ts-background-repeat .ts-background-image {
-  background-repeat: repeat;
-  background-size: inherit;
- }
-  
- .ts-background-image,
- .ts-img-into-bg {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50%;
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
-  border-radius: 5px;
- }
-
-
 
   /*-------------------------------------------
   -- Hero
@@ -398,22 +347,6 @@ ts-background-image rounded-corners {
  }
   
  /*-------------------------------------------
-  -- Hero Form Floated
- -------------------------------------------*/
-  
- .floated {
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  bottom: -1.875rem;
- }
-  
- .floated form {
-  position: relative;
-  padding: 1.875rem 3.75rem;
- }
-  
- /*-------------------------------------------
   -- SVG Shapes
  -------------------------------------------*/
   
@@ -429,7 +362,6 @@ ts-background-image rounded-corners {
   left: 0;
   margin: auto;
  }
-
 
   /*-------------------------------------------
   -- Buttons
@@ -453,66 +385,6 @@ ts-background-image rounded-corners {
  .btn .fa-arrow-right {
   transition: 0.6s cubic-bezier(0.85, -0.37, 0.17, 1.45);
   transform: translateX(0) rotate(0.02deg);
- }
-  
- .btn span {
-  transition: 0.3s ease;
- }
-  
- .btn .status {
-  bottom: 0;
-  height: 1.375rem;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 1.5rem;
- }
-  
- .btn .status .spinner {
-  left: 0.3125rem;
-  transition: 0.3s ease;
-  top: 0.1875rem;
-  position: absolute;
-  opacity: 0;
- }
-  
- .btn .status .status-icon {
-  border-radius: 50%;
-  left: 0;
-  opacity: 0;
-  font-size: 0.625rem;
-  padding: 0.25rem 0.4375rem;
-  position: relative;
-  transition: 0.3s ease;
-  z-index: 1;
-  transform: scale(0);
- }
-  
- .btn .status .status-icon.valid {
-  background-color: var(--green);
- }
-  
- .btn .status .status-icon.invalid {
-  background-color: var(--red);
- }
-  
- .btn.processing span {
-  opacity: 0.2;
- }
-  
- .btn.processing .spinner {
-  opacity: 1;
- }
-  
- .btn.done .ts-spinner {
-  opacity: 0;
- }
-  
- .btn.done .status-icon {
-  transform: scale(1);
-  opacity: 1;
  }
   
  .btn-primary:hover,
@@ -614,22 +486,6 @@ ts-background-image rounded-corners {
   font-size: 1.125rem;
  }
   
- .btn-sm {
-  font-size: 0.8125rem;
-  padding: 0.375rem 1rem;
- }
-  
- .btn-xs {
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.125rem 0.6875rem;
-  text-transform: uppercase;
- }
-  
- [class*="btn-outline-"] {
-  box-shadow: none;
- }
-  
  .ts-btn-border-muted {
   border-color: rgba(25, 25, 25, 0.1);
  }
@@ -711,30 +567,12 @@ justify-content: center;
  /*-------------------------------------------
   -- Block
  -------------------------------------------*/
-  
+
  .ts-block {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 8.125rem;
+  padding-top: 8.125rem;
   position: relative;
- }
-  
- .ts-block-inside {
-  padding: 1.25rem;
-  position: relative;
- }
-  
- /*-------------------------------------------
-  -- Box
- -------------------------------------------*/
-  
- .ts-box {
-  background-color: #fff;
-  border-radius: 0.25rem;
-  margin-bottom: 1.875rem;
-  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
-  padding: 1.5625rem;
- }
-  
+}
 
  /*-------------------------------------------
   -- Card
@@ -749,7 +587,6 @@ justify-content: center;
   margin-bottom: 1.175rem;
   overflow: hidden;
   position: relative;
-  /* z-index: 5; */
  }
   
  .card-columns .card {
@@ -796,25 +633,6 @@ link:hover {
   position: relative;
   display: inline-block;
  }
-  
- .ts-item-header .icon .step {
-  background-color: #3a79f9;
-  top: 0;
-  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
-  border-radius: 50%;
-  color: #fff;
-  font-weight: 600;
-  line-height: 1.875rem;
-  right: 0;
-  height: 1.875rem;
-  position: absolute;
-  text-align: center;
-  width: 1.875rem;
- }
-  
- .ts-item-body {
-  flex: 1 1 auto;
- }
 
  .five-star-col {
   background-color: #fff;
@@ -828,22 +646,6 @@ link:hover {
 
 .five-star-col, .pricing-text, .card { transition: all .2s ease-in-out; }
 .five-star-col:hover, .pricing-text:hover, .card:hover { transform: scale(0.98); }
-
-.service-3-item {
-  margin: 0 auto;
-  padding: 0;
-  width: 80%;
-  color: #1976BD;
-}
-
-.service-3-item:hover {
-  color: #1976BD;
-}
-
-.service-3-col {
-  margin: 1rem auto;
-  align-items: center;
-}
   
   
  /*-------------------------------------------
@@ -857,14 +659,13 @@ link:hover {
  
 /*-------------------------------------------- 
 Promo Section
-*/
+---------------------------------------------*/
   
  .promo-banner {
   position: fixed;
-  z-index: 5 !important;
+  z-index: 5;
   top: 77px;
   padding-bottom: 0;
-  width: 100vw;
   background-color: #f7f7f7;
   color: #737373;
  }
@@ -877,11 +678,6 @@ Promo Section
  .promo-card p {
   color: #2C302E;
  }
-  
- .promo-card:hover {
-  opacity: 1 !important;
- }
-  
 
   /*-------------------- 
   Pricing
@@ -949,12 +745,9 @@ Promo Section
     border-bottom-right-radius: 2em;
   }
 
-
-
   /*------------------------ 
   Footer
   ------------------------*/
-
 
   .footer-basic {
     padding: 40px 0;
@@ -994,15 +787,9 @@ Promo Section
    }
 
    .footer-contact {
-    font-size: .8em;
+    font-size: 8em;
     line-height: 1.3em;
    }
-
-   #ts-footer .ts-box {
-    margin-top: -3.125rem;
-    color: #737373 !important;
-   }
-
 
    /* NEW */
   
@@ -1144,24 +931,8 @@ Promo Section
  }
 
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
 @media (max-width: 990px) {
-
-
-
 
   html {
     font-size: 100%;
@@ -1301,10 +1072,6 @@ Promo Section
     color: #737373;
   }
 
-  .ts-promo-numbers h2 {
-    font-size: 2.25rem;
-  }
-
   /*Hero + Nav */
 
   #ts-hero {
@@ -1336,10 +1103,6 @@ Promo Section
 
   .btn {
     margin-top: 0;
-  }
-  
-  .button-group {
-    margin: 2rem;
   }
 
   #studio-section-btn {
@@ -1412,11 +1175,6 @@ Promo Section
   
   #arrow-bottom {
     display: none;
-  }
-  
-  #booking {
-    margin-top: 8rem;
-    margin-bottom: 5rem;
   }
 
   /*imgs  */
@@ -1537,11 +1295,6 @@ Promo Section
     display: none;
   }
   
-  #booking {
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-  }
-  
   .img-cut {
     display: none;
     margin-bottom: 0;
@@ -1567,18 +1320,9 @@ Promo Section
     font-size: .75em;
   }
   
-  #booking {
-    height: 100%;
-    margin-top: 0;
-  }
-  
   .row-img {
     padding: 0;
     margin: 0;
-  }
-  
-  #mobile-map {
-    margin-left: 2em;
   }
   
   .tpc-img {
@@ -1593,10 +1337,7 @@ Promo Section
   .promo-card {
     display: none;
   }
-  
-  #mobile-map {
-    margin: 0 auto;
-  }
+
   
  }
  
