@@ -50,6 +50,11 @@ body {
   font-size: 1rem;
   font-weight: 700;
  }
+
+ h6,
+ .ts-h6 {
+  font-size: 0.9375rem;
+ }
   
  p {
   font-family: museo-slab, serif;
@@ -58,10 +63,7 @@ body {
   color: #737373;
  }
   
- h6,
- .ts-h6 {
-  font-size: 0.9375rem;
- }
+
   
  .ts-background-image ts-parallax-element {
   opacity: 0;
@@ -108,25 +110,6 @@ body {
   z-index: 2;
  }
   
-
- .ts-font-color__white {
-  color: #fff;
- }
-  
- .ts-font-color__black {
-  color: #000;
- }
-  
- .ts-font-color__primary {
-  color: #1976bd;
- }
-  
- .ts-font-color__secondary {
-  color: #08836a;
- }
-
-
-
   /*-------------------------------------------
   -- Typography
  -------------------------------------------*/
@@ -271,11 +254,7 @@ ts-background-image rounded-corners {
   position: relative;
   overflow: hidden;
  }
-  
- #ts-hero .ts-background-image {
-  background-position: top center;
- }
-  
+
  /*-------------------------------------------
   -- Navbar
  -------------------------------------------*/
@@ -287,15 +266,6 @@ ts-background-image rounded-corners {
   padding-top: 1rem;
   transition: 0.3s ease;
   color: #737373;
- }
-  
- .navbar.in {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
- }
-  
- .navbar.in .ts-background {
-  opacity: 1 !important;
  }
   
  .navbar .ts-background {
@@ -931,7 +901,7 @@ Promo Section
  }
 
 
- 
+
 @media (max-width: 990px) {
 
   html {
