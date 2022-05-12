@@ -174,7 +174,7 @@ body {
  max-height: 500px;
 }
 
-.img-cut {
+#services-2 .img-cut {
 max-width: 500px;
 max-height: 250px;
 }
@@ -477,18 +477,16 @@ more-btn:hover {
   color:#08836a;
 }
 
-.btn-group-2 {
-display: flex;
-height: 100%;
-margin-bottom: 0;
-align-items: center;
-justify-content: center;
-}
   
 .ts-background-position-left {
   background-position-x: left !important;
 }
   
+
+.button-group .btn-lg {
+  margin-right: 2em;
+  margin-left: 0;
+}
  /*-------------------------------------------
   -- Title
  -------------------------------------------*/
@@ -961,6 +959,9 @@ Promo Section
     display: none;
   }
 
+  /* #us .img-cut {
+    display: block;
+  } */
 
 
   /* .learn-more-secondary {
@@ -1199,6 +1200,15 @@ Promo Section
     font-weight: 500;
     color: #737373 !important;
   }
+
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
   
   .navbar.navbar-expand-sm .ts-background {
     opacity: 0;
@@ -1215,7 +1225,31 @@ Promo Section
   }
   
   .button-group {
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .button-group .btn-primary {
+    margin-left: 2em;
+  }
+
+  .button-group .btn-lg {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .header-div .button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .header-div {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
   
   .joe-btn-group {
@@ -1230,7 +1264,7 @@ Promo Section
     margin-top: 2em;
   }
   
-  #team, #mission {
+  #team, #mission, #us, #about-3 {
     height: 100%;
   }
   
@@ -1243,13 +1277,42 @@ Promo Section
     background-size: auto;
   }
   
+  #us, #ts-hero{
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
   #us {
-    margin-top: 5rem;
+    padding-top: 0;
+    margin-top: -4em;
+  }
+
+  #about-1 {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
+  #about-1 .ts-title {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   #services-1 {
     height: 100%;
     margin-bottom: 5rem;
+  }
+
+  #us .button-group {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #about-3 {
+    margin-top: -4em;
+    padding-top: 0;
   }
   
   #star {
