@@ -1188,14 +1188,72 @@ Promo Section
   
   
  @media (max-width: 540px) {
+
+  /* Header, Nav */
+
   .navbar.navbar-expand-sm .navbar.navbar-expand-lg .navbar-nav {
     align-items: center;
   }
 
+  .navbar.navbar-expand-sm .ts-background {
+    opacity: 0;
+  }
+
+  .header-div {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .header-div .button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .ts-background-image-hero {
+    text-align: center;
+  }
+
+  .ts-svg {
+    background-size: auto;
+  }
+
+  /* General */
+
   body {
     background-color: cyan;
   }
+
+  .ts-block {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .container {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .ts-block h2 {
+    padding-top: 2em;
+  }
+
+  section {
+    padding: 0;
+    margin:0;
+  }
   
+
+  /* Typography */
+
   p {
     font-weight: 500;
     color: #737373 !important;
@@ -1209,137 +1267,18 @@ Promo Section
   h2 {
     font-size: 1.6rem;
   }
-  
-  .navbar.navbar-expand-sm .ts-background {
-    opacity: 0;
-  }
-  
-  .learn-more-secondary {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-  }
-  
-  .button-group {
-    margin-top: 5rem;
-    margin-left: 0;
-    padding-left: 0;
-  }
 
-  .button-group .btn-primary {
-    margin-left: 2em;
-  }
-
-  .button-group .btn-lg {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .header-div .button-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-
-  .header-div {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .joe-btn-group {
-    text-align: center;
-  }
-  
   .team-text {
     text-align: center;
   }
   
-  .meet-owner-title{
-    margin-top: 2em;
-  }
-  
-  #team, #mission, #us, #about-3 {
-    height: 100%;
-  }
-  
-  .ts-background-image-hero {
-    /* display: none; */
-    text-align: center;
-  }
-
-  .ts-svg {
-    background-size: auto;
-  }
-  
-  #us, #ts-hero{
-    padding-left: .5em;
-    padding-right: .5em;
-  }
-
-  #us {
-    padding-top: 0;
-    margin-top: -4em;
-  }
-
-  #about-1 {
-    padding-left: .5em;
-    padding-right: .5em;
-  }
-
-  #about-1 .ts-title {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  #services-1 {
-    height: 100%;
-    margin-bottom: 5rem;
-  }
-
-  #us .button-group {
-    text-align: center;
+  #team h2, #team2 h2 {
     margin: 0;
     padding: 0;
   }
 
-  #about-3 {
-    margin-top: -4em;
-    padding-top: 0;
-  }
-  
-  #star {
-    margin-top: 5rem;
-  }
-  
-  #mission {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
-  #arrow-bottom {
-    display: none;
-  }
-  
-  .img-cut {
-    display: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  
-  .team-row {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
+  /* Img */
+
   .meet-img {
     order: 1;
     margin-bottom: 1rem;
@@ -1362,7 +1301,141 @@ Promo Section
     order: 2;
     margin-top: 2em;
   }
+
+  .img-cut {
+    display: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* Buttons */
+
+  .learn-more-secondary {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
   
+  .button-group {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .button-group .btn-lg {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .button-group .btn-primary .btn-secondary {
+    margin-left: 2em;
+  }
+
+  #arrow-bottom {
+    display: none;
+  }
+
+
+  /* Sections */
+
+  #team, #mission, #us, #about-3 {
+    height: 100%;
+  }
+
+  #us, #ts-hero{
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
+  #us {
+    padding-top: 0;
+    margin-top: -4em;
+  }
+
+  #us .button-group {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+  #about-1 .ts-title {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0.5em;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #about-1 .button-group {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #about-1 .button-group .btn-secondary {
+    margin-top: 3em;
+    margin-bottom: .3em;
+  }
+
+  #about-1 .button-group .btn-primary {
+    margin-top: 1em;
+    margin-bottom: .3em;
+  }
+
+  #about-3 {
+    margin-top: -4em;
+    padding-top: 0;
+  }
+
+  #about-3 .button-group {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #about-3 .button-group .btn-secondary {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+
+  #about-3 .button-group .btn-primary {
+    margin-top: 3em;
+    margin-bottom: .3em;
+  }
+
+  #star {
+    
+  }
+  #team {
+
+  }
+  #team2 {}
+
+  #mission {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #services-2 h2, #services-2 h3 {
+    color:#2C302E;
+  }
+  #pricing .section-title {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  .pricing-small small{
+    font-size: 1.1rem;
+    padding: 1em;
+  }
+  #sub-form {}
+  #ts-footer {}
+
+
+  /* Components */
+
   .tpc-text {
     order: 1;
   }
@@ -1371,6 +1444,17 @@ Promo Section
     display: none;
   }
 
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  /* Footer */
+
+  #ts-footer #footer-ul{
+    font-size: 1.2rem;
+  }
   
  }
  
