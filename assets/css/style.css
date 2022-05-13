@@ -1223,7 +1223,7 @@ Promo Section
   /* General */
 
   body {
-    background-color: cyan;
+    background-color: #fff;
   }
 
   .ts-block {
@@ -1382,7 +1382,7 @@ Promo Section
   }
 
   #about-1 .button-group .btn-primary {
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: .3em;
   }
 
@@ -1409,9 +1409,9 @@ Promo Section
   #star {
     
   }
-  #team {
-
+  #team .button-group {
   }
+
   #team2 {}
 
   #mission {
@@ -1421,6 +1421,12 @@ Promo Section
   #services-2 h2, #services-2 h3 {
     color:#2C302E;
   }
+
+  #services-2 .btn {
+    margin-bottom: 2em;
+    margin-top: 0;
+  }
+
   #pricing .section-title {
     margin-top: 4em;
     margin-bottom: 4em;
@@ -1450,10 +1456,21 @@ Promo Section
     text-align: center;
   }
 
+  .section-title {
+    margin-bottom: 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+  }
+
+  #us .section-title, #about-1 .section-title {
+    margin-top: 2em;
+  }
+
   /* Footer */
 
   #ts-footer #footer-ul{
-    font-size: 1.2rem;
+    font-size: 1.033rem;
   }
   
  }
