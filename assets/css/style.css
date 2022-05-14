@@ -713,6 +713,10 @@ Promo Section
     border-bottom-right-radius: 2em;
   }
 
+  .streaming-div{
+    background-color: #1976bd;
+    color: #fff;
+  }
   /*------------------------ 
   Footer
   ------------------------*/
@@ -803,6 +807,11 @@ Promo Section
 
   #pricing-extra {
     margin-bottom: 5em;
+  }
+
+  .streaming-div{
+    background-color: #1976bd !important;
+    color: #fff !important;
   }
   
  /***********************************************************************************************************************
