@@ -1031,7 +1031,7 @@ Promo Section
   
  /* this one - mobile */
   
- @media (min-width: 541px) and (max-width: 1145px) {
+ @media (min-width: 541px) and (max-width: 1200px) {
 
 
   /*Global */
@@ -1735,7 +1735,7 @@ Promo Section
     text-align: center;
   }
 
-  #team2 .section-title {
+  #team2 .meet-owner-title {
     margin-top: 2em;
     text-align: right;
     margin-bottom: .3em;
