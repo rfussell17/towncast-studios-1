@@ -760,6 +760,50 @@ Promo Section
    }
 
    /* NEW */
+
+
+   .section-title {
+    margin-bottom: 2em;
+    margin-top: 2em;
+   }
+
+   .button-group {
+     margin-top: 2em;
+   }
+
+   #team .section-title h2{
+     margin-bottom: 2em;
+     margin-top: 2em;
+     text-align: center;
+   }
+
+   #services-2 .btn {
+     margin-bottom: 3em;
+   }
+
+   #pricing .section-title {
+     margin-top: 5em;
+   }
+
+   #pricing .pricing-small {
+     margin: 2em;
+   }
+
+   #pricing .pricing-btn-group {
+     margin-bottom: 4em;
+   }
+
+   #pricing .pricing-btn-group .btn{
+    margin-bottom: 1em;
+  }
+
+  #pricing-extra .section-title {
+    margin-top: 5em;
+  }
+
+  #pricing-extra {
+    margin-bottom: 5em;
+  }
   
  /***********************************************************************************************************************
  B. Helpers
@@ -902,7 +946,7 @@ Promo Section
 
 @media (max-width: 990px) {
 
-  html {
+  /* html {
     font-size: 100%;
   }
   
@@ -959,20 +1003,6 @@ Promo Section
     display: none;
   }
 
-  /* #us .img-cut {
-    display: block;
-  } */
-
-
-  /* .learn-more-secondary {
-    padding-top: .63rem;
-    padding-bottom: .63rem;
-    margin-top: .1rem;
-    margin-bottom: .7rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  } */
-
   .hero-btn-1 {
     margin-left: 0;
   }
@@ -980,25 +1010,13 @@ Promo Section
   .hero-btn-2 {
     margin: 1em;
   }
-  
-  /* .btn-group-2 {
-    display: flex;
-    height: 100%;
-    margin-bottom: 0;
-    align-items: center;
-    justify-content: center;
-  } */
-
-  /* img {
-    display: block;
-  } */
 
 
   
   #team {
     margin-top: 5rem;
     margin-bottom: 5rem;
-  }
+  } */
 
  }
   
@@ -1013,15 +1031,16 @@ Promo Section
   
  /* this one - mobile */
   
- @media (min-width: 541px) and (max-width: 900px) {
+ @media (min-width: 541px) and (max-width: 1145px) {
 
 
   /*Global */
 
 
   body {
-    background-color: magenta;
+    background-color: #fff;
   }
+  
 
   /*Typography */
 
@@ -1121,8 +1140,28 @@ Promo Section
   }
   
   .team-row {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
+    text-align: center; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .team-row .ts-block {
+    /* display: flex;
+    flex-wrap: wrap;
+    text-align: center; */
+    padding: 0;
+    margin: 0;
+  }
+
+  #team .button-group, #team2 .button-group {
+
+    text-align: center;
+  }
+
+  #team2 .meet-img {
     text-align: center;
   }
 
@@ -1165,6 +1204,195 @@ Promo Section
   .ts-svg {
     background-size: auto;
   }
+
+
+
+
+
+
+
+  #team, #mission, #us, #about-3 {
+    height: 100%;
+  }
+
+  #us, #ts-hero{
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
+  #us {
+    padding-top: 0;
+    margin-top: -4em;
+  }
+
+
+
+  #about-1 .ts-title {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0.5em;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #about-1 .button-group {
+    margin-top: 0;
+    padding-top: 0;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  #about-1 .button-group .btn-secondary {
+    margin-top: 3em;
+    margin-bottom: .3em;
+  }
+
+  #about-1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  #about-1 .button-group .btn-primary {
+    margin-top: 3em;
+    margin-bottom: .3em;
+  }
+
+  #about-3 {
+    margin-top: -4em;
+    padding-top: 0;
+  }
+
+  #about-3 .button-group {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  #about-3 .ts-block {
+    padding-bottom: 0;
+  }
+
+  #about-3 .button-group .btn-secondary {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+
+  #about-3 .button-group .btn-primary {
+    margin-top: 3em;
+    margin-bottom: .3em;
+  }
+
+  #mission {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #services-2 h2, #services-2 h3 {
+    color:#2C302E;
+  }
+
+  #services-2 .ts-block, #star .ts-block {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  #team .section-title {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  #team .team-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #team .landscape-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #team2 .section-title {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  #team2 .team-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #team2 .ts-block {
+    padding-bottom: 2em;
+  }
+
+  #mission .section-title {
+    margin-top: 5em;
+  }
+
+  #services-2 .btn {
+    margin-bottom: 2em;
+    margin-top: 0;
+  }
+
+  #pricing .section-title {
+    margin-top: 5em;
+    margin-bottom: 4em;
+  }
+
+  .pricing-small small{
+    font-size: 1rem;
+  }
+
+  .pricing-small {
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+
+  .pricing-mobile-text {
+    padding: 1em;
+    
+    
+  }
+
+  .pricing-mobile-text p {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 2em;
+  }
+
+  .btn-secondary {
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
+  #pricing-extra .section-title {
+    margin-top: 5em;
+  }
+
+  #pricing-extra .pricing-btn-group {
+    margin-bottom: 3em;
+  }
+
+  .img-cut {
+    display: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #us .button-group {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+
+
+
   
   /* .img-cut {
     display: inline-block;
@@ -1210,6 +1438,10 @@ Promo Section
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+  }
+
+  .header-div .button-group .hero-btn-2{
+    margin-top: 1em;
   }
 
   .ts-background-image-hero {
@@ -1406,14 +1638,6 @@ Promo Section
     margin-bottom: .3em;
   }
 
-  #star {
-    
-  }
-  #team .button-group {
-  }
-
-  #team2 {}
-
   #mission {
     margin-top: 0;
     padding-top: 0;
@@ -1433,12 +1657,38 @@ Promo Section
   }
 
   .pricing-small small{
-    font-size: 1.1rem;
-    padding: 1em;
+    font-size: 1rem;
   }
-  #sub-form {}
-  #ts-footer {}
 
+  .pricing-small {
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+
+  .pricing-mobile-text {
+    padding: 1em;
+    
+    
+  }
+
+  .pricing-mobile-text p {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 2em;
+  }
+
+  .btn-secondary {
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
+  #pricing-extra .section-title {
+    margin-top: 3em;
+  }
+
+  #pricing-extra .pricing-btn-group {
+    margin-bottom: 3em;
+  }
 
   /* Components */
 
@@ -1454,6 +1704,12 @@ Promo Section
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+  }
+
+  #team2 .section-title {
+    margin-top: 2em;
+    text-align: right;
+    margin-bottom: .3em;
   }
 
   .section-title {
