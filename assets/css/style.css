@@ -813,6 +813,20 @@ Promo Section
     background-color: #1976bd !important;
     color: #fff !important;
   }
+
+  #services-2 h3 {
+    color: #2C302E !important;
+  }
+
+  #services-2 .btn {
+    margin-top: 1em !important;
+
+  }
+
+  #services-2 .services-2-text {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+  }
   
  /***********************************************************************************************************************
  B. Helpers
@@ -949,93 +963,7 @@ Promo Section
     opacity: 1;
     transform: scale(1);
   }
- }
-
-
-
-@media (max-width: 990px) {
-
-  /* html {
-    font-size: 100%;
-  }
-  
-  body {
-    background-color: mediumaquamarine;
-  }
-
-
-  h1,
-  .ts-h1 {
-    font-size: 3.5rem;
-  }
-  
-  h2,
-  .ts-h2 {
-    font-size: 2.25rem;
-  }
-  
-  h3,
-  .ts-h3 {
-    font-size: 1.625rem;
-  }
-  
-  .ts-block {
-    padding-bottom: 8.125rem;
-    padding-top: 8.125rem;
-  }
-
-
-
-  .navbar.navbar-expand-md .navbar-nav {
-    align-items: center;
-  }
-  
-  .navbar.navbar-expand-md .ts-background {
-    opacity: 0;
-  }
-
-  .nav-cut {
-    display: none;
-  }
-
-  .promo-card {
-    display: none;
-  }
-
-  .img-cut {
-    display: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .row-img {
-    display: none;
-  }
-
-  .hero-btn-1 {
-    margin-left: 0;
-  }
-
-  .hero-btn-2 {
-    margin: 1em;
-  }
-
-
-  
-  #team {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  } */
-
- }
-  
-  
-  
-  
-  
-  
-  
-  
+ }  
   
   
  /* this one - mobile */
@@ -1102,16 +1030,6 @@ Promo Section
   #studio-section-btn {
     margin-bottom: 3.5rem;
   }
-
-  /* .learn-more-secondary {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-  } */
   
   /*layout */
 
