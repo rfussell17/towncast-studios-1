@@ -827,6 +827,27 @@ Promo Section
     margin-bottom: 0;
     padding-bottom: 0 !important;
   }
+
+  .button-group-left {
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .joe-btn-group {
+    text-align: right;
+    margin-right: 1em;
+  }
+
+  .service-button {
+    margin-top: 0;
+
+  }
+
+  .services-2-text {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
   
  /***********************************************************************************************************************
  B. Helpers
@@ -1342,6 +1363,16 @@ Promo Section
     padding-bottom: 0;
   }
 
+ .button-group-left {
+   text-align: left;
+   padding-left: 0;
+   margin-left: 0;
+ }
+
+ .joe-btn-group {
+   text-align: right;
+ }
+
 
 
 
@@ -1526,6 +1557,17 @@ Promo Section
     display: none;
   }
 
+  .button-group-left {
+    text-align: center;
+    margin-top: 5em;
+  }
+
+  .joe-btn-group, .tpc-button-group {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+
 
   /* Sections */
 
@@ -1559,18 +1601,19 @@ Promo Section
     margin-right: 0;
   }
 
+
   #about-1 .button-group {
-    margin-top: 0;
-    padding-top: 0;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 
   #about-1 .button-group .btn-secondary {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: .3em;
   }
 
   #about-1 .button-group .btn-primary {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: .3em;
   }
 
