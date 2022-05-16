@@ -722,7 +722,7 @@ Promo Section
   ------------------------*/
 
   .footer-basic {
-    padding: 40px 0;
+    padding: 20px 0;
      background-color: #f3f3f3;
    }
     
@@ -730,10 +730,9 @@ Promo Section
     padding: 0;
     list-style: none;
     text-align: center;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-bottom: 0;
-    color: #333;
+    font-size: 1rem;
+    margin: .5em;
+    color: #2C302E;
    }
     
    .footer-basic li {
@@ -741,7 +740,7 @@ Promo Section
    }
     
    .footer-basic ul a {
-    color: #333;
+    color: #2c302e;
     text-decoration: none;
     opacity: 0.8;
    }
@@ -754,13 +753,9 @@ Promo Section
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color: #aaa;
+    color: #1976bd;
     margin-bottom: 0;
-   }
-
-   .footer-contact {
-    font-size: 8em;
-    line-height: 1.3em;
+    padding-bottom:0;
    }
 
    /* NEW */
@@ -1724,9 +1719,18 @@ Promo Section
 
   /* Footer */
 
-  #ts-footer #footer-ul{
-    font-size: 1.033rem;
+  #ts-footer .footer-ul{
+font-size: 1.1rem;
+text-align: left;
+
+  }
+
+ .footer-ul li{
+   margin: .4em;
+    text-align: left;
+    align-self: left;
   }
   
+
  }
  
