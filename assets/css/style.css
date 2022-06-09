@@ -102,6 +102,8 @@ body {
   
  .promo-card {
   position: relative;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
  }
   
  .promo-banner {
